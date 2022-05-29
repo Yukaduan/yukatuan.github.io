@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>魚咖的異想世界</title>
-    <link>https://example.com/</link>
+    <link>https://yukatuan.github.io/</link>
     <description>魚咖的異想世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-HK</language>
     <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yukatuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://example.com/archives/</link>
+      <link>https://yukatuan.github.io/archives/</link>
       <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/archives/</guid>
+      <guid>https://yukatuan.github.io/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>②Coding之外</title>
-      <link>https://example.com/about/subpage2/</link>
+      <link>https://yukatuan.github.io/about/subpage2/</link>
       <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/subpage2/</guid>
+      <guid>https://yukatuan.github.io/about/subpage2/</guid>
       <description>&lt;p&gt;除了Coding，作爲一個高開放性人格，我還有如下的諸多興趣愛好：&lt;/p&gt;
 &lt;h2 id=&#34;語言學習&#34; &gt;語言學習
 &lt;span&gt;
@@ -135,10 +135,10 @@
     
     <item>
       <title>①學習計劃</title>
-      <link>https://example.com/about/subpage/</link>
+      <link>https://yukatuan.github.io/about/subpage/</link>
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/subpage/</guid>
+      <guid>https://yukatuan.github.io/about/subpage/</guid>
       <description>&lt;h3 id=&#34;前端系統知識&#34; &gt;前端系統知識
 &lt;span&gt;
     &lt;a href=&#34;#%e5%89%8d%e7%ab%af%e7%b3%bb%e7%b5%b1%e7%9f%a5%e8%ad%98&#34;&gt;
@@ -170,10 +170,10 @@
     
     <item>
       <title>自我介紹</title>
-      <link>https://example.com/about/</link>
+      <link>https://yukatuan.github.io/about/</link>
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://yukatuan.github.io/about/</guid>
       <description>&lt;p&gt;Hi, 我是魚咖。在下本來是個勤勤懇懇的法學生，怎奈學law的過程中一直對coding充滿興趣，尤其是在面對各種dirty works時，運用coding的技巧幫我一鍵完成各種下載、截屏的費力不討好之事真是雪中送炭。&lt;/p&gt;
 &lt;p&gt;從2022年3月1日，在我的好朋友Phoebe（~某大廠三年高級前端工程師~）的鼓勵下，我開始自學編程。到現在已經快三個月了，我感到自己每天都在進步，這種有反饋、有目標的學習真的充滿樂趣。&lt;/p&gt;
 &lt;p&gt;學習中的輸出是非常重要的，所以我會在這個博客裏分享學習心得。希望可以做到“日知其所亡，月無亡所能。”&lt;/p&gt;
@@ -182,10 +182,10 @@
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/markdown-syntax/</link>
+      <link>https://yukatuan.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/markdown-syntax/</guid>
+      <guid>https://yukatuan.github.io/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34; &gt;Headings
 &lt;span&gt;
@@ -433,10 +433,10 @@
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/post/placeholder-text/</link>
+      <link>https://yukatuan.github.io/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/placeholder-text/</guid>
+      <guid>https://yukatuan.github.io/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
@@ -486,10 +486,10 @@ Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;</description>
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/post/math-typesetting/</link>
+      <link>https://yukatuan.github.io/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/math-typesetting/</guid>
+      <guid>https://yukatuan.github.io/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a href=&#34;https://katex.org/&#34;&gt;KaTeX&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -521,10 +521,10 @@ $$&lt;/p&gt;</description>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/post/emoji-support/</link>
+      <link>https://yukatuan.github.io/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/emoji-support/</guid>
+      <guid>https://yukatuan.github.io/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
