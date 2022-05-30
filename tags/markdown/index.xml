@@ -17,7 +17,9 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;本文主要介紹Hugo文件中的markdown語法規則。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文詳細列舉了Hugo文件中的markdown語法規則，學會了就能愉快地開始博客寫作了。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;標題&#34; &gt;標題
 &lt;span&gt;
     &lt;a href=&#34;#%e6%a8%99%e9%a1%8c&#34;&gt;

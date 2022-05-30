@@ -10,9 +10,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Emoji 使用方法 - 魚咖的異想世界</title>
+<title>如何使用Hugo搭建屬於自己的博客 - 魚咖的異想世界</title>
 
-<meta name="description" content="Guide to emoji usage in Hugo">
+<meta name="description" content="
+Hugo用Go語言写成，可以幫助我們快速搭建一個優雅的網站。
+">
 
 
 
@@ -84,17 +86,21 @@
 
 
 
-<meta property="og:title" content="Emoji 使用方法" />
-<meta property="og:description" content="Guide to emoji usage in Hugo" />
+<meta property="og:title" content="如何使用Hugo搭建屬於自己的博客" />
+<meta property="og:description" content="
+Hugo用Go語言写成，可以幫助我們快速搭建一個優雅的網站。
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yukatuan.github.io/post/emoji-support/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-05-30T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-05-30T00:00:00+00:00" />
+<meta property="og:url" content="https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-30T13:49:57+08:00" />
+<meta property="article:modified_time" content="2022-05-30T13:49:57+08:00" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Emoji 使用方法"/>
-<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
+<meta name="twitter:title" content="如何使用Hugo搭建屬於自己的博客"/>
+<meta name="twitter:description" content="
+Hugo用Go語言写成，可以幫助我們快速搭建一個優雅的網站。
+"/>
 
 
 
@@ -181,40 +187,132 @@
     <article class="post h-entry">
         <div class="post-header">
             <header>
-                <h1 class="p-name post-title">Emoji 使用方法</h1>
+                <h1 class="p-name post-title">如何使用Hugo搭建屬於自己的博客</h1>
 
                 
             </header>
         </div>
         <div class="content e-content">
             <blockquote>
-<p>本文主要介紹Emoji 在Hugo框架下的使用方法，給你的博客文章加點可愛的emoji。</p>
+<p>Hugo用Go語言写成，可以幫助我們快速搭建一個優雅的網站。</p>
 </blockquote>
-<h3 id="實現方式" >實現方式
+<h2 id="hugo安裝" >Hugo安裝
 <span>
-    <a href="#%e5%af%a6%e7%8f%be%e6%96%b9%e5%bc%8f">
+    <a href="#hugo%e5%ae%89%e8%a3%9d">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h3><p>在文章中顯示Emoji可以直接調用<a href="https://gohugo.io/functions/emojify/">emojify</a> 函數并使用 <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>功能實現。</p>
-<h3 id="具體方法" >具體方法
+</h2><h3 id="mac" >MAC
 <span>
-    <a href="#%e5%85%b7%e9%ab%94%e6%96%b9%e6%b3%95">
+    <a href="#mac">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h3><p>如果需要全局使用，需要將網站根目錄中“config.toml, config.yaml, 或 config.json ” （根據具體情況判斷，我的文件時config.toml，因此下方代碼也是用.toml文件的修改方式舉例。其他文件的修改方式請見上文Inline Shortcodes鏈接中的内容）文件中添加兩行代碼：</p>
-<pre tabindex="0"><code>enableInlineShortcodes = true
-enableEmoji = true
-</code></pre><p>這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：</p>
-<p>I ❤️ Coding.</p>
-<h3 id="emoji代碼" >Emoji代碼
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><h3 id="win" >WIN
 <span>
-    <a href="#emoji%e4%bb%a3%e7%a2%bc">
+    <a href="#win">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h3><p>Emoji對應代碼備忘錄請見: <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> .</p>
+</h3><ol>
+<li>hugo release頁面下載對應版本zip文件</li>
+<li>解壓将hugo.exe文件放入D:\Software\hugo（路徑可自選，最好是是英文）</li>
+<li>将以上路徑加入path
+<ul>
+<li>右鍵我的電腦</li>
+<li>屬性</li>
+<li>高級系統設置</li>
+<li>環境變量</li>
+<li>雙擊path</li>
+<li>新增路徑</li>
+</ul>
+</li>
+<li>重啓終端，運行hugo version，看到版本號就説明成功了。</li>
+</ol>
+<h2 id="搭建博客" >搭建博客
+<span>
+    <a href="#%e6%90%ad%e5%bb%ba%e5%8d%9a%e5%ae%a2">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>进入hugo官网（<a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a>），按照該步驟一步步進行搭建。</p>
+<p><strong>注意</strong>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site quickstart
+</span></span></code></pre></div><p>其中quickstart需要改成github仓库名加“-generator”。</p>
+<h3 id="新建一个終端" >新建一个終端
+<span>
+    <a href="#%e6%96%b0%e5%bb%ba%e4%b8%80%e4%b8%aa%e7%b5%82%e7%ab%af">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><ol>
+<li>在終端中運行hugo（生成public文件夾）；也可以用hugo -F &ndash;cleanDestinationDir（生成全新的文件夾）</li>
+<li>在最外面新建.gitignore，其中輸入：</li>
+</ol>
+<p><code>/public/</code> <br>
+即不要管我的public，它要自成一个文件夾。</p>
+<ol start="3">
+<li>cd public</li>
+<li>git init</li>
+<li>git add .</li>
+<li>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:你的用戶名/你的用戶名.github.io.git</li>
+<li>git branch -M main</li>
+<li>git push -u origin main</li>
+</ol>
+<h3 id="创建第二篇博客" >创建第二篇博客
+<span>
+    <a href="#%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%ba%8c%e7%af%87%e5%8d%9a%e5%ae%a2">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><ol>
+<li>在 xxx.github.io-creator 目录（注意确保自己不在 public 目录）里运行 hugo new posts/第二篇博客.md</li>
+<li>运行 code posts/第二篇博客.md 对文件进行编辑，注意不要把文件原本的内容给删了，直接在后面另起一行写新内容。</li>
+<li>运行 hugo -D，得到新的 public 目录</li>
+<li>进入 public 目录，执行一下操作
+<ol>
+<li>git add . 注意有一个点</li>
+<li>git commit -m update</li>
+<li>git push -f 其中 -f 是强制上传的意思</li>
+</ol>
+</li>
+<li>等待几分钟后，你的博客就会出现第二篇文章了！</li>
+</ol>
+<h3 id="上传图片" >上传图片
+<span>
+    <a href="#%e4%b8%8a%e4%bc%a0%e5%9b%be%e7%89%87">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><h4 id="方法1" >方法1
+<span>
+    <a href="#%e6%96%b9%e6%b3%951">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><ol>
+<li>打开 sm.ms 网站，将图片上传上去，得到图片的 url。</li>
+<li>在文章里使用 <code>![](url) </code>语法即可显示图片</li>
+</ol>
+<h4 id="方法2" >方法2
+<span>
+    <a href="#%e6%96%b9%e6%b3%952">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><ol>
+<li>将图片文件 1.png 存放到 static 目录里，得到 static/1.png</li>
+<li>在博客 Markdown 里写 <code>![](/1.png)</code> 就能看到 static/1.png 对应的图片了</li>
+<li>如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 <code>/images</code> 即可，比如
+<ol>
+<li>将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png</li>
+<li>在博客里写<code> ![](/images/2.png)</code>即可</li>
+</ol>
+</li>
+</ol>
+<p>另外，你还可以谷歌一下「Hugo 插入图片」找找答案。</p>
         </div>
         
 
@@ -226,30 +324,13 @@ enableEmoji = true
         <div class="post-date dt-published">2022-05-30</div>
     
 
-    <a class="post-hidden-url u-url" href="https://yukatuan.github.io/post/emoji-support/">https://yukatuan.github.io/post/emoji-support/</a>
+    <a class="post-hidden-url u-url" href="https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</a>
     <a href="https://yukatuan.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Yuka Tuan</a>
 
 
     <div class="post-taxonomies">
         
-            <ul class="post-categories">
-                
-                    
-                    <li><a href="https://yukatuan.github.io/categories/%E7%A7%91%E6%8A%80/">科技</a></li>
-                
-            </ul>
             
-            
-                <ul class="post-tags">
-                    
-                        
-                        <li><a href="https://yukatuan.github.io/tags/emoji/">#emoji</a></li>
-                    
-                        
-                        <li><a href="https://yukatuan.github.io/tags/translation/">#translation</a></li>
-                    
-                </ul>
-        
     </div>
 </div>
 
@@ -265,12 +346,12 @@ enableEmoji = true
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">如何使用Hugo搭建屬於自己的博客</a>
+                <a href="/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/">中國學生英文學術寫作常見錯誤</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/post/markdown-syntax/">Markdown語法規則</a>
+                <a href="/post/emoji-support/">Emoji 使用方法</a>
             
         </div>
     </div>

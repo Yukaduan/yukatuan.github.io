@@ -17,7 +17,9 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/post/emoji-support/</guid>
-      <description>&lt;p&gt;本文主要介紹Emoji 在Hugo框架下的使用方法。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文主要介紹Emoji 在Hugo框架下的使用方法，給你的博客文章加點可愛的emoji。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;實現方式&#34; &gt;實現方式
 &lt;span&gt;
     &lt;a href=&#34;#%e5%af%a6%e7%8f%be%e6%96%b9%e5%bc%8f&#34;&gt;
@@ -35,8 +37,7 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;enableInlineShortcodes = true
 enableEmoji = true
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：&lt;/p&gt;
-&lt;p&gt;❤️
-🐟 ☕&lt;/p&gt;
+&lt;p&gt;I ❤️ Coding.&lt;/p&gt;
 &lt;h3 id=&#34;emoji代碼&#34; &gt;Emoji代碼
 &lt;span&gt;
     &lt;a href=&#34;#emoji%e4%bb%a3%e7%a2%bc&#34;&gt;
@@ -52,7 +53,9 @@ enableEmoji = true
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;本文主要介紹Hugo文件中的markdown語法規則。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文詳細列舉了Hugo文件中的markdown語法規則，學會了就能愉快地開始博客寫作了。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;標題&#34; &gt;標題
 &lt;span&gt;
     &lt;a href=&#34;#%e6%a8%99%e9%a1%8c&#34;&gt;
