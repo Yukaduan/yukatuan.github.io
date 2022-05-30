@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on 魚咖的異想世界</title>
-    <link>https://yukatuan.github.io/tags/markdown/</link>
-    <description>魚咖的異想世界 (markdown)</description>
+    <title>科技 on 魚咖的異想世界</title>
+    <link>https://yukatuan.github.io/categories/%E7%A7%91%E6%8A%80/</link>
+    <description>魚咖的異想世界 (科技)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://yukatuan.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yukatuan.github.io/categories/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emoji 使用方法</title>
+      <link>https://yukatuan.github.io/post/emoji-support/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukatuan.github.io/post/emoji-support/</guid>
+      <description>&lt;p&gt;本文主要介紹Emoji 在Hugo框架下的使用方法。&lt;/p&gt;
+&lt;h3 id=&#34;實現方式&#34; &gt;實現方式
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%af%a6%e7%8f%be%e6%96%b9%e5%bc%8f&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;在文章中顯示Emoji可以直接調用&lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; 函數并使用 &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;功能實現。&lt;/p&gt;
+&lt;h3 id=&#34;具體方法&#34; &gt;具體方法
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%85%b7%e9%ab%94%e6%96%b9%e6%b3%95&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;如果需要全局使用，需要將網站根目錄中“config.toml, config.yaml, 或 config.json ” （根據具體情況判斷，我的文件時config.toml，因此下方代碼也是用.toml文件的修改方式舉例。其他文件的修改方式請見上文Inline Shortcodes鏈接中的内容）文件中添加兩行代碼：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;enableInlineShortcodes = true
+enableEmoji = true
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：&lt;/p&gt;
+&lt;p&gt;❤️
+🐟 ☕&lt;/p&gt;
+&lt;h3 id=&#34;emoji代碼&#34; &gt;Emoji代碼
+&lt;span&gt;
+    &lt;a href=&#34;#emoji%e4%bb%a3%e7%a2%bc&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Emoji對應代碼備忘錄請見: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Markdown語法規則</title>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html lang="zh-HK" data-theme="">
+<html lang="zh-Hans" data-theme="">
 <head>
     
         
@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Emoji Support - 魚咖的異想世界</title>
+<title>Emoji 使用方法 - 魚咖的異想世界</title>
 
 <meta name="description" content="Guide to emoji usage in Hugo">
 
@@ -84,16 +84,16 @@
 
 
 
-<meta property="og:title" content="Emoji Support" />
+<meta property="og:title" content="Emoji 使用方法" />
 <meta property="og:description" content="Guide to emoji usage in Hugo" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yukatuan.github.io/post/emoji-support/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2019-03-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-03-05T00:00:00+00:00" />
+<meta property="article:published_time" content="2022-05-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-30T00:00:00+00:00" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Emoji Support"/>
+<meta name="twitter:title" content="Emoji 使用方法"/>
 <meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
 
 
@@ -181,23 +181,39 @@
     <article class="post h-entry">
         <div class="post-header">
             <header>
-                <h1 class="p-name post-title">Emoji Support</h1>
+                <h1 class="p-name post-title">Emoji 使用方法</h1>
 
                 
             </header>
         </div>
         <div class="content e-content">
-            <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
-</span></span><span style="display:flex;"><span>font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+            <p>本文主要介紹Emoji 在Hugo框架下的使用方法。</p>
+<h3 id="實現方式" >實現方式
+<span>
+    <a href="#%e5%af%a6%e7%8f%be%e6%96%b9%e5%bc%8f">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>在文章中顯示Emoji可以直接調用<a href="https://gohugo.io/functions/emojify/">emojify</a> 函數并使用 <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>功能實現。</p>
+<h3 id="具體方法" >具體方法
+<span>
+    <a href="#%e5%85%b7%e9%ab%94%e6%96%b9%e6%b3%95">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>如果需要全局使用，需要將網站根目錄中“config.toml, config.yaml, 或 config.json ” （根據具體情況判斷，我的文件時config.toml，因此下方代碼也是用.toml文件的修改方式舉例。其他文件的修改方式請見上文Inline Shortcodes鏈接中的内容）文件中添加兩行代碼：</p>
+<pre tabindex="0"><code>enableInlineShortcodes = true
+enableEmoji = true
+</code></pre><p>這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：</p>
+<p>❤️
+🐟 ☕</p>
+<h3 id="emoji代碼" >Emoji代碼
+<span>
+    <a href="#emoji%e4%bb%a3%e7%a2%bc">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>Emoji對應代碼備忘錄請見: <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> .</p>
         </div>
         
 
@@ -206,20 +222,30 @@
 
 <div class="post-info">
     
-        <div class="post-date dt-published">2019-03-05</div>
+        <div class="post-date dt-published">2022-05-30</div>
     
 
     <a class="post-hidden-url u-url" href="https://yukatuan.github.io/post/emoji-support/">https://yukatuan.github.io/post/emoji-support/</a>
-    <a href="https://yukatuan.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Hugo Authors</a>
+    <a href="https://yukatuan.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Yuka Tuan</a>
 
 
     <div class="post-taxonomies">
         
+            <ul class="post-categories">
+                
+                    
+                    <li><a href="https://yukatuan.github.io/categories/%E7%A7%91%E6%8A%80/">科技</a></li>
+                
+            </ul>
+            
             
                 <ul class="post-tags">
                     
                         
                         <li><a href="https://yukatuan.github.io/tags/emoji/">#emoji</a></li>
+                    
+                        
+                        <li><a href="https://yukatuan.github.io/tags/translation/">#translation</a></li>
                     
                 </ul>
         
@@ -236,12 +262,12 @@
     
         
     <div class="pagination post-pagination">
-        <div class="left pagination-item ">
-            
-                <a href="/post/math-typesetting/">Math Typesetting</a>
+        <div class="left pagination-item disabled">
             
         </div>
-        <div class="right pagination-item disabled">
+        <div class="right pagination-item ">
+            
+                <a href="/post/markdown-syntax/">Markdown語法規則</a>
             
         </div>
     </div>

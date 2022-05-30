@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yukatuan.github.io/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/categories/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/tags/css/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/tags/emoji/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/post/emoji-support/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/tags/html/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/tags/markdown/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/post/markdown-syntax/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/post/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/tags/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/tags/translation/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/categories/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yukatuan.github.io/archives/</loc>
     <lastmod>2022-05-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,59 +50,14 @@
     <loc>https://yukatuan.github.io/about/</loc>
     <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yukatuan.github.io/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yukatuan.github.io/post/hidden-post/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/post/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yukatuan.github.io/tags/privacy/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yukatuan.github.io/tags/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yukatuan.github.io/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yukatuan.github.io/tags/index/</loc>
   </url>
