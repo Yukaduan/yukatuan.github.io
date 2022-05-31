@@ -10,14 +10,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Emoji 使用方法 :heart: - 魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
+<title>blog - 魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
 
-<meta name="description" content="Guide to emoji usage in Hugo">
-
-
+<meta name="description" content="Code is law, law is code.">
 
 
 
+
+
+<link rel="alternate" type="application/rss+xml" href="https://yukatuan.github.io/tags/blog/index.xml" title="魚咖的技術博客 | Yuka's Tech Blog" />
 <link rel="icon" type="image/x-icon" href="https://yukatuan.github.io/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://yukatuan.github.io/favicon.png">
 
@@ -84,17 +85,15 @@
 
 
 
-<meta property="og:title" content="Emoji 使用方法 :heart:" />
-<meta property="og:description" content="Guide to emoji usage in Hugo" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://yukatuan.github.io/post/emoji-support/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-05-30T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-05-30T00:00:00+00:00" />
+<meta property="og:title" content="blog" />
+<meta property="og:description" content="Code is law, law is code." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yukatuan.github.io/tags/blog/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Emoji 使用方法 :heart:"/>
-<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
+<meta name="twitter:title" content="blog"/>
+<meta name="twitter:description" content="Code is law, law is code."/>
 
 
 
@@ -178,70 +177,44 @@
         </header>
         <main id="main" tabindex="-1"> 
             
+    <h1>Tag: blog</h1>
+    <div class="post-info">
+        <a href="/tags/">To all tags</a>
+    </div>
     
-
-    <article class="post h-entry">
-        <div class="post-header">
-            <header>
-                <h1 class="p-name post-title">Emoji 使用方法 :heart:</h1>
-
-                
-            </header>
-        </div>
-        <div class="content e-content">
-            <blockquote>
-<p>本文主要介紹Emoji 在Hugo框架下的使用方法，給你的博客文章加點可愛的emoji。</p>
-</blockquote>
-<h3 id="實現方式" >實現方式
-<span>
-    <a href="#%e5%af%a6%e7%8f%be%e6%96%b9%e5%bc%8f">
-        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
-    </a>
-</span>
-</h3><p>在文章中顯示Emoji可以直接調用<a href="https://gohugo.io/functions/emojify/">emojify</a> 函數并使用 <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>功能實現。</p>
-<p>p.s.: 開啓InlineShortcodes后會擁有很多强大的功能，例如插入油管視頻等。</p>
-<p>此處正好和大家一起欣賞下Jinyoung的《Dive》~~</p>
-<ul>
-<li><input disabled="" type="checkbox"> 朴振英 🙅‍♀️</li>
-<li><input checked="" disabled="" type="checkbox"> 朴珍榮
-❤️</li>
-</ul>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/2WLtAOR5vlE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<hr>
-<h3 id="具體方法" >具體方法
-<span>
-    <a href="#%e5%85%b7%e9%ab%94%e6%96%b9%e6%b3%95">
-        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
-    </a>
-</span>
-</h3><p>如果需要全局使用，需要將網站根目錄中“config.toml, config.yaml, 或 config.json ” （根據具體情況判斷，我的文件時config.toml，因此下方代碼也是用.toml文件的修改方式舉例。其他文件的修改方式請見上文Inline Shortcodes鏈接中的内容）文件中添加兩行代碼：</p>
-<pre tabindex="0"><code>enableInlineShortcodes = true
-enableEmoji = true
-</code></pre><p>這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：</p>
-<p>I ❤️ Coding.</p>
-<h3 id="emoji代碼" >Emoji代碼
-<span>
-    <a href="#emoji%e4%bb%a3%e7%a2%bc">
-        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
-    </a>
-</span>
-</h3><p>Emoji對應代碼備忘錄請見: <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> .</p>
-        </div>
+    
+        <article class="post-list h-feed">
+    <div class="post-header">
+        <header>
+            <h1 class="p-name post-title"><a class="u-url" href="/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">如何使用Hugo搭建屬於自己的博客</a></h1>
+        </header>
         
+    </div>
+
+    
+        <div class="content post-summary p-summary">
+            <blockquote>
+<p>Hugo用Go語言写成，可以幫助我們快速搭建一個優雅的網站。</p>
+</blockquote>
+        </div>
+    
+    
+        <div class="read-more">
+            <a class="u-url" href="/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">Read more</a>
+        </div>
+    
+    
+    
 
     
 
 
 <div class="post-info">
     
-        <div class="post-date dt-published">2022-05-30</div>
+        <div class="post-date dt-published">2022-05-29</div>
     
 
-    <a class="post-hidden-url u-url" href="https://yukatuan.github.io/post/emoji-support/">https://yukatuan.github.io/post/emoji-support/</a>
+    <a class="post-hidden-url u-url" href="https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</a>
     <a href="https://yukatuan.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Yuka Tuan</a>
 
 
@@ -258,53 +231,21 @@ enableEmoji = true
                 <ul class="post-tags">
                     
                         
-                        <li><a href="https://yukatuan.github.io/tags/emoji/">#emoji</a></li>
+                        <li><a href="https://yukatuan.github.io/tags/hugo/">#hugo</a></li>
                     
                         
-                        <li><a href="https://yukatuan.github.io/tags/translation/">#translation</a></li>
+                        <li><a href="https://yukatuan.github.io/tags/blog/">#blog</a></li>
                     
                 </ul>
         
     </div>
 </div>
 
-    </article>
-
+</article>
     
-        
-        
     
 
-    
-        
-    <div class="pagination post-pagination">
-        <div class="left pagination-item ">
-            
-                <a href="/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/">中國學生英文學術寫作常見錯誤</a>
-            
-        </div>
-        <div class="right pagination-item ">
-            
-                <a href="/post/markdown-syntax/">Markdown語法規則</a>
-            
-        </div>
-    </div>
 
-
-
-
-    
-
-    
-        
-
-
-
-
-
-
-
-    
 
         </main>
         

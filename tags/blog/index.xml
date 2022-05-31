@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on 魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
+    <link>https://yukatuan.github.io/tags/blog/</link>
+    <description>魚咖的技術博客 | Yuka&#39;s Tech Blog (blog)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 29 May 2022 14:05:32 +0800</lastBuildDate>
+    
+    <atom:link href="https://yukatuan.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何使用Hugo搭建屬於自己的博客</title>
+      <link>https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 29 May 2022 14:05:32 +0800</pubDate>
+      
+      <guid>https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Hugo用Go語言写成，可以幫助我們快速搭建一個優雅的網站。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;hugo安裝&#34; &gt;Hugo安裝
+&lt;span&gt;
+    &lt;a href=&#34;#hugo%e5%ae%89%e8%a3%9d&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;mac&#34; &gt;MAC
+&lt;span&gt;
+    &lt;a href=&#34;#mac&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;win&#34; &gt;WIN
+&lt;span&gt;
+    &lt;a href=&#34;#win&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;hugo release頁面下載對應版本zip文件&lt;/li&gt;
+&lt;li&gt;解壓将hugo.exe文件放入D:\Software\hugo（路徑可自選，最好是是英文）&lt;/li&gt;
+&lt;li&gt;将以上路徑加入path
+&lt;ul&gt;
+&lt;li&gt;右鍵我的電腦&lt;/li&gt;
+&lt;li&gt;屬性&lt;/li&gt;
+&lt;li&gt;高級系統設置&lt;/li&gt;
+&lt;li&gt;環境變量&lt;/li&gt;
+&lt;li&gt;雙擊path&lt;/li&gt;
+&lt;li&gt;新增路徑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;重啓終端，運行hugo version，看到版本號就説明成功了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;搭建博客&#34; &gt;搭建博客
+&lt;span&gt;
+    &lt;a href=&#34;#%e6%90%ad%e5%bb%ba%e5%8d%9a%e5%ae%a2&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;进入hugo官网（&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;），按照該步驟一步步進行搭建。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中quickstart需要改成github仓库名加“-generator”。&lt;/p&gt;
+&lt;h3 id=&#34;新建一个終端&#34; &gt;新建一个終端
+&lt;span&gt;
+    &lt;a href=&#34;#%e6%96%b0%e5%bb%ba%e4%b8%80%e4%b8%aa%e7%b5%82%e7%ab%af&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在終端中運行hugo（生成public文件夾）；也可以用hugo -F &amp;ndash;cleanDestinationDir（生成全新的文件夾）&lt;/li&gt;
+&lt;li&gt;在最外面新建.gitignore，其中輸入：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;/public/&lt;/code&gt; &lt;br&gt;
+即不要管我的public，它要自成一个文件夾。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;cd public&lt;/li&gt;
+&lt;li&gt;git init&lt;/li&gt;
+&lt;li&gt;git add .&lt;/li&gt;
+&lt;li&gt;git remote add origin &lt;a href=&#34;mailto:git@github.com&#34;&gt;git@github.com&lt;/a&gt;:你的用戶名/你的用戶名.github.io.git&lt;/li&gt;
+&lt;li&gt;git branch -M main&lt;/li&gt;
+&lt;li&gt;git push -u origin main&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;创建第二篇博客&#34; &gt;创建第二篇博客
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%ba%8c%e7%af%87%e5%8d%9a%e5%ae%a2&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在 xxx.github.io-creator 目錄（注意確保自己不在 public 目錄）里運行 hugo new posts/第二篇博客.md&lt;/li&gt;
+&lt;li&gt;運行 code posts/第二篇博客.md 对文件進行編輯，注意不要把文件原本的内容给刪了，直接在後面另起一行寫新内容。&lt;/li&gt;
+&lt;li&gt;運行 hugo -D，得到新的 public 目錄&lt;/li&gt;
+&lt;li&gt;進入 public 目錄，執行一下操作
+&lt;ol&gt;
+&lt;li&gt;git add . 注意有一个点&lt;/li&gt;
+&lt;li&gt;git commit -m update&lt;/li&gt;
+&lt;li&gt;git push -f 其中 -f 是强制上傳的意思&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;等待几分鐘后，你的博客就会出现第二篇文章了！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;上传圖片&#34; &gt;上传圖片
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%b8%8a%e4%bc%a0%e5%9c%96%e7%89%87&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;方法1&#34; &gt;方法1
+&lt;span&gt;
+    &lt;a href=&#34;#%e6%96%b9%e6%b3%951&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;打開 sm.ms 網站，將圖片上傳上去，得到圖片的 url。&lt;/li&gt;
+&lt;li&gt;在文章里使用 &lt;code&gt;![](url) &lt;/code&gt;語法即可顯示圖片&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;方法2&#34; &gt;方法2
+&lt;span&gt;
+    &lt;a href=&#34;#%e6%96%b9%e6%b3%952&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;將圖片文件 1.png 存放到 static 目錄里，得到 static/1.png&lt;/li&gt;
+&lt;li&gt;在博客 Markdown 裏寫 &lt;code&gt;![](/1.png)&lt;/code&gt; 就能看到 static/1.png 對應的圖片了&lt;/li&gt;
+&lt;li&gt;如果你想在 static 裏創建 images 目錄，直接創建就好，對應的圖片前面加上 &lt;code&gt;/images&lt;/code&gt; 即可，比如
+&lt;ol&gt;
+&lt;li&gt;將圖片文件 2.png 放到 static/images 目錄裏，得到 static/images/2.png&lt;/li&gt;
+&lt;li&gt;在博客裏寫&lt;code&gt; ![](/images/2.png)&lt;/code&gt;即可&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;另外，你还可以Google一下「Hugo 插入圖片」找找答案。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 魚咖的異想世界</title>
+    <title>Categories on 魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
     <link>https://yukatuan.github.io/categories/</link>
-    <description>魚咖的異想世界 (Categories)</description>
+    <description>魚咖的技術博客 | Yuka&#39;s Tech Blog (Categories)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 30 May 2022 14:05:32 +0800</lastBuildDate>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>translation on 魚咖的異想世界</title>
+    <title>translation on 魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
     <link>https://yukatuan.github.io/tags/translation/</link>
-    <description>魚咖的異想世界 (translation)</description>
+    <description>魚咖的技術博客 | Yuka&#39;s Tech Blog (translation)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Emoji 使用方法</title>
+      <title>Emoji 使用方法 :heart:</title>
       <link>https://yukatuan.github.io/post/emoji-support/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -27,6 +27,19 @@
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;在文章中顯示Emoji可以直接調用&lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; 函數并使用 &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;功能實現。&lt;/p&gt;
+&lt;p&gt;p.s.: 開啓InlineShortcodes后會擁有很多强大的功能，例如插入油管視頻等。&lt;/p&gt;
+&lt;p&gt;此處正好和大家一起欣賞下Jinyoung的《Dive》~~&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 朴振英 🙅‍♀️&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 朴珍榮
+❤️&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2WLtAOR5vlE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
 &lt;h3 id=&#34;具體方法&#34; &gt;具體方法
 &lt;span&gt;
     &lt;a href=&#34;#%e5%85%b7%e9%ab%94%e6%96%b9%e6%b3%95&#34;&gt;
