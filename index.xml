@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>🐟☕魚咖的技術博客 | Yuka&#39;s Tech Blog💻</title>
+    <title>🐟☕魚咖的技術博客  |  Yuka&#39;s Tech Blog💻📱</title>
     <link>https://yukatuan.github.io/</link>
-    <description>🐟☕魚咖的技術博客 | Yuka&#39;s Tech Blog💻</description>
+    <description>🐟☕魚咖的技術博客  |  Yuka&#39;s Tech Blog💻📱</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>🔸  Emoji 使用方法 💜</title>
+      <title>🌴  Emoji 使用方法 </title>
       <link>https://yukatuan.github.io/post/emoji-support/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -50,7 +50,8 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;enableInlineShortcodes = true
 enableEmoji = true
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：&lt;/p&gt;
-&lt;p&gt;I ❤️ Coding.&lt;/p&gt;
+&lt;p&gt;I ❤️ Coding.
+🌴📎🔮☂️🍑☁️☁️❄️📌🍄❕&lt;/p&gt;
 &lt;h3 id=&#34;emoji代碼&#34; &gt;Emoji代碼
 &lt;span&gt;
     &lt;a href=&#34;#emoji%e4%bb%a3%e7%a2%bc&#34;&gt;
@@ -62,7 +63,7 @@ enableEmoji = true
     </item>
     
     <item>
-      <title>🔸 Markdown語法規則</title>
+      <title>🍑 Markdown語法規則</title>
       <link>https://yukatuan.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -347,7 +348,7 @@ enableEmoji = true
     </item>
     
     <item>
-      <title>🔸 如何使用Hugo搭建屬於自己的博客</title>
+      <title>🌴 如何使用Hugo搭建屬於自己的博客</title>
       <link>https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 29 May 2022 14:05:32 +0800</pubDate>
       
@@ -632,15 +633,14 @@ enableEmoji = true
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/about/</guid>
-      <description>&lt;p&gt;✅
-🆔Hi, 我是魚咖(Yuka)。在下本來是個勤勤懇懇的法學生，怎奈學law的過程中一直對coding充滿興趣，尤其是在面對各種dirty works時，運用coding的技巧幫我一鍵完成各種下載、截屏的費力不討好之事真是雪中送炭。&lt;/p&gt;
+      <description>&lt;p&gt;🆔Hi, 我是魚咖(Yuka)。在下本來是個勤勤懇懇的法學生，怎奈學law的過程中一直對coding充滿興趣，尤其是在面對各種dirty works時，運用coding的技巧幫我一鍵完成各種下載、截屏的費力不討好之事真是雪中送炭。&lt;/p&gt;
 &lt;p&gt;💻從2022年3月1日，在我的好朋友Phoebe Chu（某大廠高級前端工程師~）的鼓勵下，我開始自學編程。到現在已經快三個月了，我感到自己每天都在進步，這種有反饋、有目標的學習真的充滿樂趣。&lt;/p&gt;
 &lt;p&gt;📚學習中的輸出是非常重要的，所以我會在這個博客裏分享學習心得。希望可以做到“日知其所亡，月無亡所能。”&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>🔸 中國學生英文學術寫作常見錯誤</title>
+      <title>🍑 中國學生英文學術寫作常見錯誤</title>
       <link>https://yukatuan.github.io/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/</link>
       <pubDate>Wed, 18 May 2022 14:05:32 +0800</pubDate>
       
