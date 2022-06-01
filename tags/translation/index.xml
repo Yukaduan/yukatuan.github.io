@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>translation on 魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
+    <title>translation on 🐟☕魚咖的技術博客 | Yuka&#39;s Tech Blog💻</title>
     <link>https://yukatuan.github.io/tags/translation/</link>
-    <description>魚咖的技術博客 | Yuka&#39;s Tech Blog (translation)</description>
+    <description>🐟☕魚咖的技術博客 | Yuka&#39;s Tech Blog💻 (translation)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Emoji 使用方法 :heart:</title>
+      <title>🔸  Emoji 使用方法 💜</title>
       <link>https://yukatuan.github.io/post/emoji-support/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -57,7 +57,8 @@ enableEmoji = true
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;Emoji對應代碼備忘錄請見: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;</description>
+&lt;/h3&gt;&lt;p&gt;Emoji對應代碼備忘錄請見: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;此外你也可以直接從其他地方粘貼相應的emoji，就能在博客的任何一個地方顯示了。&lt;/p&gt;</description>
     </item>
     
   </channel>

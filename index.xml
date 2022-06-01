@@ -1,203 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>魚咖的技術博客 | Yuka&#39;s Tech Blog</title>
+    <title>🐟☕魚咖的技術博客 | Yuka&#39;s Tech Blog💻</title>
     <link>https://yukatuan.github.io/</link>
-    <description>魚咖的技術博客 | Yuka&#39;s Tech Blog</description>
+    <description>🐟☕魚咖的技術博客 | Yuka&#39;s Tech Blog💻</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 30 May 2022 14:05:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>中國學生英文學術寫作常見錯誤</title>
-      <link>https://yukatuan.github.io/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/</link>
-      <pubDate>Mon, 30 May 2022 14:05:32 +0800</pubDate>
-      
-      <guid>https://yukatuan.github.io/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;分享一篇文章&lt;a href=&#34;https://www.chrisyttang.org/assets/misc/The%20Most%20Common%20Habits%20from%20more%20than%20200%20English%20Papers%20written.pdf&#34;&gt;《The Most Common Habits from more than 200 English Papers written by Graduate Chinese Engineering Students》&lt;/a&gt;，其中列擧了中國學生英文學術寫作常見錯誤。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;以下是我對該文章提到的常見錯誤的總結和翻譯：&lt;/p&gt;
-&lt;h1 id=&#34;第一部分&#34; &gt;第一部分
-&lt;span&gt;
-    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e9%83%a8%e5%88%86&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;h2 id=&#34;一a-an-the的誤用&#34; &gt;一、“a, an, the”的誤用
-&lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%80a-an-the%e7%9a%84%e8%aa%a4%e7%94%a8&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;由于中文的名词前并不一定要加冠词，所以在英文写作时，中国学生很容易忘记加冠词a/an/the。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Every time a singular noncount noun, a common noun that names one countable item, is used the noun requires some kind of determiner.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;单数不可数名词（如water/time）、表示可数物品的普通名词（如dog/street/idea）前都需要一个限定词（冠词）。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;而冠词主要包括以下两种：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;【a/an】Indefinite articles 非定冠词&lt;/li&gt;
-&lt;li&gt;【the】Definite articles 定冠词&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;二very-long-sentences-复杂长句&#34; &gt;二、Very long sentences 复杂长句
-&lt;span&gt;
-    &lt;a href=&#34;#%e4%ba%8cvery-long-sentences-%e5%a4%8d%e6%9d%82%e9%95%bf%e5%8f%a5&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;中文写作中经常可以将几个观点放进一个句子里，比如“虽然有观点认为……但是大多数人还是觉得……然而在这里我们认为……。”但在英文写作中，不同观点一般是写在不同句子中的。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;One can usually recognize a very long sentence by its length – sixty words or more.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;人们通常可以根据句子长度识别一个“复杂长句”——多于60个单词。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;改写方法：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;每个句子只表明一个意思，避免混淆主旨；&lt;/li&gt;
-&lt;li&gt;使用列表、序号等方式提供数据。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;三句子结构&#34; &gt;三、句子结构
-&lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%89%e5%8f%a5%e5%ad%90%e7%bb%93%e6%9e%84&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;h3 id=&#34;i-prefacing-the-main-idea-of-a-sentence-by-stating-the-purpose-location-or-reason-first-先说目的地点原因再说主旨&#34; &gt;I. Prefacing the main idea of a sentence by stating the purpose, location or reason first 先说目的、地点、原因，再说主旨
-&lt;span&gt;
-    &lt;a href=&#34;#i-prefacing-the-main-idea-of-a-sentence-by-stating-the-purpose-location-or-reason-first-%e5%85%88%e8%af%b4%e7%9b%ae%e7%9a%84%e5%9c%b0%e7%82%b9%e5%8e%9f%e5%9b%a0%e5%86%8d%e8%af%b4%e4%b8%bb%e6%97%a8&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;这一点和中外思维习惯不同有关，中国人习惯先说“为了……我们做了……研究”，而外国人学术写作提倡观点先行，直抒胸臆。&lt;/p&gt;
-&lt;p&gt;例如：
-&lt;strong&gt;Incorrect&lt;/strong&gt; Inside the test box, the space was filled with asbestos.
-**Correct **The space inside the test box was filled with asbestos.&lt;/p&gt;
-&lt;h3 id=&#34;ii-tendency-of-placing-phrases-which-indicate-time-at-the-beginning-of-a-sentence-将表示时间的短语放在句首&#34; &gt;II. Tendency of placing phrases which indicate time at the beginning of a sentence 将表示时间的短语放在句首
-&lt;span&gt;
-    &lt;a href=&#34;#ii-tendency-of-placing-phrases-which-indicate-time-at-the-beginning-of-a-sentence-%e5%b0%86%e8%a1%a8%e7%a4%ba%e6%97%b6%e9%97%b4%e7%9a%84%e7%9f%ad%e8%af%ad%e6%94%be%e5%9c%a8%e5%8f%a5%e9%a6%96&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;中文喜欢在句首说“当……时”，但英文习惯把“when”放在句中。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; When U is taken as the control parameter, the BDs for Δ =0.0, 0.001, 0.005 are shown in Fig. 8.
-&lt;strong&gt;Correct&lt;/strong&gt; Figure 8 shows the BDs for Δ =0.0, 0.001, and 0.005 when U is taken as the control parameter.&lt;/p&gt;
-&lt;h3 id=&#34;iii-place-the-most-important-subject-at-the-beginning-of-the-sentence-for-emphasis-将最重要的主语放在句首表示强调&#34; &gt;III. Place the most important subject at the beginning of the sentence for emphasis 将最重要的主语放在句首表示强调
-&lt;span&gt;
-    &lt;a href=&#34;#iii-place-the-most-important-subject-at-the-beginning-of-the-sentence-for-emphasis-%e5%b0%86%e6%9c%80%e9%87%8d%e8%a6%81%e7%9a%84%e4%b8%bb%e8%af%ad%e6%94%be%e5%9c%a8%e5%8f%a5%e9%a6%96%e8%a1%a8%e7%a4%ba%e5%bc%ba%e8%b0%83&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;英文句法有其惯用的语序，例如“based on”、“with”都习惯于放在其修饰的主语后面。但如果用中文思考，“基于……”“具有……”自然就会放在句首，导致句子语序比较奇怪。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; Based on the triangulation structure built from unorganized points or a CAD model, the extended STL format is described in this section.4
-&lt;strong&gt;Correct&lt;/strong&gt; The extended STL format is described in this section based on the triangulation structure built from unorganized points or a CAD model.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; The 3D dentition defect and restoration element models are designed precisely with complicated surfaces.
-**Correct **The 3D dentition defect and restoration element models with complicated surfaces are designed precisely.&lt;/p&gt;
-&lt;h2 id=&#34;四which-that&#34; &gt;四、“which/ that”
-&lt;span&gt;
-    &lt;a href=&#34;#%e5%9b%9bwhich-that&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;使用which/that容易出现指代不明确，导致误会的情况。所以使用which/that时，一定要明确先行词（the antecedent）。&lt;/p&gt;
-&lt;h2 id=&#34;五respectively-and-respective&#34; &gt;五、‘Respectively’ and ‘respective’
-&lt;span&gt;
-    &lt;a href=&#34;#%e4%ba%94respectively-and-respective&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;Respectively is usually at the end of the sentence.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Respectively通常被放在句尾&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; The weights of the two experts are respectively 0.600 and 0.400.
-&lt;strong&gt;Correct&lt;/strong&gt; The weights of the two experts are 0.600 and 0.400, respectively.&lt;/p&gt;
-&lt;p&gt;Respectively很多时候可以省略，尤其这种“分别、各自”的含义已经暗含在句子中的时候。&lt;/p&gt;
-&lt;h2 id=&#34;六in-this-paper-in-this-study&#34; &gt;六、‘In this paper’, ‘in this study’
-&lt;span&gt;
-    &lt;a href=&#34;#%e5%85%adin-this-paper-in-this-study&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;中文论文写作经常使用“在本文中”、“在本研究中”，但是英文写作无需多次强调，通常只有两种情况需要使用“In this paper”或“in this study”。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;引言（introduction）或结论（conclusion）中需要强调论文内容时；&lt;/li&gt;
-&lt;li&gt;正文中提到其他文章的内容，需要和本文内容区分开的时候。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;另外“In this paper”和“in this study”不能混用，究竟是本文的内容（即读者正在阅读的文字），还是本研究的内容（即作者所做的工作）。&lt;/p&gt;
-&lt;h2 id=&#34;七numbers-and-equations-数字与方程式&#34; &gt;七、Numbers and Equations 数字与方程式
-&lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%83numbers-and-equations-%e6%95%b0%e5%ad%97%e4%b8%8e%e6%96%b9%e7%a8%8b%e5%bc%8f&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;学术写作中可以使用阿拉伯数字，但有以下两点需要注意：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;句首不要使用阿拉伯数字（3），而要将单词完整拼写出来（three）；&lt;/li&gt;
-&lt;li&gt;阿拉伯数字尽量用于提供数据，而用单词提供一般信息。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; All 3 studies concluded that the mean temperature should be 30°C.
-&lt;strong&gt;Correct&lt;/strong&gt; All three studies concluded that the mean temperature should be 30°C.&lt;/p&gt;
-&lt;p&gt;一些方程式也最好用语言描述，而不是直接用符号。比如：
-&lt;strong&gt;Incorrect&lt;/strong&gt; SOC &amp;gt; SOC10
-&lt;strong&gt;Correct&lt;/strong&gt; SOC is greater than SOC10&lt;/p&gt;
-&lt;h2 id=&#34;八format-格式&#34; &gt;八、Format 格式
-&lt;span&gt;
-    &lt;a href=&#34;#%e5%85%abformat-%e6%a0%bc%e5%bc%8f&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;h3 id=&#34;i-paragraphs-段落&#34; &gt;I. Paragraphs 段落
-&lt;span&gt;
-    &lt;a href=&#34;#i-paragraphs-%e6%ae%b5%e8%90%bd&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;一个段落表示一个主题或思想。&lt;/p&gt;
-&lt;h3 id=&#34;ii-figure-and-table&#34; &gt;II. ‘Figure’ and ‘Table’
-&lt;span&gt;
-    &lt;a href=&#34;#ii-figure-and-table&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;可以用 Figure, figure, Fig, or fig表示图，用Table, Tbl表示表，但要全文一致。&lt;/p&gt;
-&lt;h2 id=&#34;九such-as-and-etc&#34; &gt;九、‘such as’ and ‘etc.’
-&lt;span&gt;
-    &lt;a href=&#34;#%e4%b9%9dsuch-as-and-etc&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;二者表示同一个意思，不能在一个句子里连用。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;第二部分&#34; &gt;第二部分
-&lt;span&gt;
-    &lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e9%83%a8%e5%88%86&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;p&gt;其他常见错误：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;直接根据中文翻译，导致容易语意重复的词语。&lt;/li&gt;
-&lt;li&gt;Never begin an English sentence with abbreviations and Arabic numerals such as Fig. and 8. Instead write Figure and Eight.永远不要用缩写或阿拉伯数字作为英文句子的开头&lt;/li&gt;
-&lt;li&gt;Do not write ‘by this way’. Instead write ‘by doing this’, or ‘using this method’.&lt;/li&gt;
-&lt;li&gt;Never write ‘How to…’ at the beginning of a sentence.&lt;/li&gt;
-&lt;li&gt;Do write ‘the results are shown in Figure 2’. Do not write ‘the results are showed as Figure 2’.&lt;/li&gt;
-&lt;li&gt;Refrain from using the word obviously in a technical paper（因为paper中常常是需要解释的，而不是不言自明的）&lt;/li&gt;
-&lt;li&gt;Avoid overusing the phrases ‘that is to say’ and ‘namely’. Instead, try to convey your meaning in one sentence.&lt;/li&gt;
-&lt;li&gt;Do not use ‘too’ at the end of a written sentence, especially in a technical paper.（直接在句中用also）&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji 使用方法 :heart:</title>
+      <title>🔸  Emoji 使用方法 💜</title>
       <link>https://yukatuan.github.io/post/emoji-support/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -242,11 +57,12 @@ enableEmoji = true
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;Emoji對應代碼備忘錄請見: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;</description>
+&lt;/h3&gt;&lt;p&gt;Emoji對應代碼備忘錄請見: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;此外你也可以直接從其他地方粘貼相應的emoji，就能在博客的任何一個地方顯示了。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Markdown語法規則</title>
+      <title>🔸 Markdown語法規則</title>
       <link>https://yukatuan.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -531,7 +347,7 @@ enableEmoji = true
     </item>
     
     <item>
-      <title>如何使用Hugo搭建屬於自己的博客</title>
+      <title>🔸 如何使用Hugo搭建屬於自己的博客</title>
       <link>https://yukatuan.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 29 May 2022 14:05:32 +0800</pubDate>
       
@@ -816,10 +632,196 @@ enableEmoji = true
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/about/</guid>
-      <description>&lt;p&gt;Hi, 我是魚咖🐟 ☕(Yuka)。在下本來是個勤勤懇懇的法學生，怎奈學law的過程中一直對coding充滿興趣，尤其是在面對各種dirty works時，運用coding的技巧幫我一鍵完成各種下載、截屏的費力不討好之事真是雪中送炭。&lt;/p&gt;
+      <description>&lt;p&gt;✅
+🆔Hi, 我是魚咖(Yuka)。在下本來是個勤勤懇懇的法學生，怎奈學law的過程中一直對coding充滿興趣，尤其是在面對各種dirty works時，運用coding的技巧幫我一鍵完成各種下載、截屏的費力不討好之事真是雪中送炭。&lt;/p&gt;
 &lt;p&gt;💻從2022年3月1日，在我的好朋友Phoebe Chu（某大廠高級前端工程師~）的鼓勵下，我開始自學編程。到現在已經快三個月了，我感到自己每天都在進步，這種有反饋、有目標的學習真的充滿樂趣。&lt;/p&gt;
 &lt;p&gt;📚學習中的輸出是非常重要的，所以我會在這個博客裏分享學習心得。希望可以做到“日知其所亡，月無亡所能。”&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>🔸 中國學生英文學術寫作常見錯誤</title>
+      <link>https://yukatuan.github.io/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/</link>
+      <pubDate>Wed, 18 May 2022 14:05:32 +0800</pubDate>
+      
+      <guid>https://yukatuan.github.io/post/%E4%B8%AD%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;分享一篇文章&lt;a href=&#34;https://www.chrisyttang.org/assets/misc/The%20Most%20Common%20Habits%20from%20more%20than%20200%20English%20Papers%20written.pdf&#34;&gt;《The Most Common Habits from more than 200 English Papers written by Graduate Chinese Engineering Students》&lt;/a&gt;，其中列擧了中國學生英文學術寫作常見錯誤。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下是我對該文章提到的常見錯誤的總結和翻譯：&lt;/p&gt;
+&lt;h1 id=&#34;第一部分&#34; &gt;第一部分
+&lt;span&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e9%83%a8%e5%88%86&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;一a-an-the的誤用&#34; &gt;一、“a, an, the”的誤用
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%b8%80a-an-the%e7%9a%84%e8%aa%a4%e7%94%a8&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;由于中文的名词前并不一定要加冠词，所以在英文写作时，中国学生很容易忘记加冠词a/an/the。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every time a singular noncount noun, a common noun that names one countable item, is used the noun requires some kind of determiner.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单数不可数名词（如water/time）、表示可数物品的普通名词（如dog/street/idea）前都需要一个限定词（冠词）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;而冠词主要包括以下两种：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;【a/an】Indefinite articles 非定冠词&lt;/li&gt;
+&lt;li&gt;【the】Definite articles 定冠词&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;二very-long-sentences-复杂长句&#34; &gt;二、Very long sentences 复杂长句
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%ba%8cvery-long-sentences-%e5%a4%8d%e6%9d%82%e9%95%bf%e5%8f%a5&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;中文写作中经常可以将几个观点放进一个句子里，比如“虽然有观点认为……但是大多数人还是觉得……然而在这里我们认为……。”但在英文写作中，不同观点一般是写在不同句子中的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One can usually recognize a very long sentence by its length – sixty words or more.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人们通常可以根据句子长度识别一个“复杂长句”——多于60个单词。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;改写方法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;每个句子只表明一个意思，避免混淆主旨；&lt;/li&gt;
+&lt;li&gt;使用列表、序号等方式提供数据。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;三句子结构&#34; &gt;三、句子结构
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%b8%89%e5%8f%a5%e5%ad%90%e7%bb%93%e6%9e%84&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;i-prefacing-the-main-idea-of-a-sentence-by-stating-the-purpose-location-or-reason-first-先说目的地点原因再说主旨&#34; &gt;I. Prefacing the main idea of a sentence by stating the purpose, location or reason first 先说目的、地点、原因，再说主旨
+&lt;span&gt;
+    &lt;a href=&#34;#i-prefacing-the-main-idea-of-a-sentence-by-stating-the-purpose-location-or-reason-first-%e5%85%88%e8%af%b4%e7%9b%ae%e7%9a%84%e5%9c%b0%e7%82%b9%e5%8e%9f%e5%9b%a0%e5%86%8d%e8%af%b4%e4%b8%bb%e6%97%a8&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;这一点和中外思维习惯不同有关，中国人习惯先说“为了……我们做了……研究”，而外国人学术写作提倡观点先行，直抒胸臆。&lt;/p&gt;
+&lt;p&gt;例如：
+&lt;strong&gt;Incorrect&lt;/strong&gt; Inside the test box, the space was filled with asbestos.
+**Correct **The space inside the test box was filled with asbestos.&lt;/p&gt;
+&lt;h3 id=&#34;ii-tendency-of-placing-phrases-which-indicate-time-at-the-beginning-of-a-sentence-将表示时间的短语放在句首&#34; &gt;II. Tendency of placing phrases which indicate time at the beginning of a sentence 将表示时间的短语放在句首
+&lt;span&gt;
+    &lt;a href=&#34;#ii-tendency-of-placing-phrases-which-indicate-time-at-the-beginning-of-a-sentence-%e5%b0%86%e8%a1%a8%e7%a4%ba%e6%97%b6%e9%97%b4%e7%9a%84%e7%9f%ad%e8%af%ad%e6%94%be%e5%9c%a8%e5%8f%a5%e9%a6%96&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;中文喜欢在句首说“当……时”，但英文习惯把“when”放在句中。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; When U is taken as the control parameter, the BDs for Δ =0.0, 0.001, 0.005 are shown in Fig. 8.
+&lt;strong&gt;Correct&lt;/strong&gt; Figure 8 shows the BDs for Δ =0.0, 0.001, and 0.005 when U is taken as the control parameter.&lt;/p&gt;
+&lt;h3 id=&#34;iii-place-the-most-important-subject-at-the-beginning-of-the-sentence-for-emphasis-将最重要的主语放在句首表示强调&#34; &gt;III. Place the most important subject at the beginning of the sentence for emphasis 将最重要的主语放在句首表示强调
+&lt;span&gt;
+    &lt;a href=&#34;#iii-place-the-most-important-subject-at-the-beginning-of-the-sentence-for-emphasis-%e5%b0%86%e6%9c%80%e9%87%8d%e8%a6%81%e7%9a%84%e4%b8%bb%e8%af%ad%e6%94%be%e5%9c%a8%e5%8f%a5%e9%a6%96%e8%a1%a8%e7%a4%ba%e5%bc%ba%e8%b0%83&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;英文句法有其惯用的语序，例如“based on”、“with”都习惯于放在其修饰的主语后面。但如果用中文思考，“基于……”“具有……”自然就会放在句首，导致句子语序比较奇怪。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; Based on the triangulation structure built from unorganized points or a CAD model, the extended STL format is described in this section.4
+&lt;strong&gt;Correct&lt;/strong&gt; The extended STL format is described in this section based on the triangulation structure built from unorganized points or a CAD model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; The 3D dentition defect and restoration element models are designed precisely with complicated surfaces.
+**Correct **The 3D dentition defect and restoration element models with complicated surfaces are designed precisely.&lt;/p&gt;
+&lt;h2 id=&#34;四which-that&#34; &gt;四、“which/ that”
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%9b%9bwhich-that&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;使用which/that容易出现指代不明确，导致误会的情况。所以使用which/that时，一定要明确先行词（the antecedent）。&lt;/p&gt;
+&lt;h2 id=&#34;五respectively-and-respective&#34; &gt;五、‘Respectively’ and ‘respective’
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%ba%94respectively-and-respective&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Respectively is usually at the end of the sentence.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Respectively通常被放在句尾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; The weights of the two experts are respectively 0.600 and 0.400.
+&lt;strong&gt;Correct&lt;/strong&gt; The weights of the two experts are 0.600 and 0.400, respectively.&lt;/p&gt;
+&lt;p&gt;Respectively很多时候可以省略，尤其这种“分别、各自”的含义已经暗含在句子中的时候。&lt;/p&gt;
+&lt;h2 id=&#34;六in-this-paper-in-this-study&#34; &gt;六、‘In this paper’, ‘in this study’
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%85%adin-this-paper-in-this-study&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;中文论文写作经常使用“在本文中”、“在本研究中”，但是英文写作无需多次强调，通常只有两种情况需要使用“In this paper”或“in this study”。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;引言（introduction）或结论（conclusion）中需要强调论文内容时；&lt;/li&gt;
+&lt;li&gt;正文中提到其他文章的内容，需要和本文内容区分开的时候。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;另外“In this paper”和“in this study”不能混用，究竟是本文的内容（即读者正在阅读的文字），还是本研究的内容（即作者所做的工作）。&lt;/p&gt;
+&lt;h2 id=&#34;七numbers-and-equations-数字与方程式&#34; &gt;七、Numbers and Equations 数字与方程式
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%b8%83numbers-and-equations-%e6%95%b0%e5%ad%97%e4%b8%8e%e6%96%b9%e7%a8%8b%e5%bc%8f&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;学术写作中可以使用阿拉伯数字，但有以下两点需要注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;句首不要使用阿拉伯数字（3），而要将单词完整拼写出来（three）；&lt;/li&gt;
+&lt;li&gt;阿拉伯数字尽量用于提供数据，而用单词提供一般信息。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Incorrect&lt;/strong&gt; All 3 studies concluded that the mean temperature should be 30°C.
+&lt;strong&gt;Correct&lt;/strong&gt; All three studies concluded that the mean temperature should be 30°C.&lt;/p&gt;
+&lt;p&gt;一些方程式也最好用语言描述，而不是直接用符号。比如：
+&lt;strong&gt;Incorrect&lt;/strong&gt; SOC &amp;gt; SOC10
+&lt;strong&gt;Correct&lt;/strong&gt; SOC is greater than SOC10&lt;/p&gt;
+&lt;h2 id=&#34;八format-格式&#34; &gt;八、Format 格式
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%85%abformat-%e6%a0%bc%e5%bc%8f&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;i-paragraphs-段落&#34; &gt;I. Paragraphs 段落
+&lt;span&gt;
+    &lt;a href=&#34;#i-paragraphs-%e6%ae%b5%e8%90%bd&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;一个段落表示一个主题或思想。&lt;/p&gt;
+&lt;h3 id=&#34;ii-figure-and-table&#34; &gt;II. ‘Figure’ and ‘Table’
+&lt;span&gt;
+    &lt;a href=&#34;#ii-figure-and-table&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;可以用 Figure, figure, Fig, or fig表示图，用Table, Tbl表示表，但要全文一致。&lt;/p&gt;
+&lt;h2 id=&#34;九such-as-and-etc&#34; &gt;九、‘such as’ and ‘etc.’
+&lt;span&gt;
+    &lt;a href=&#34;#%e4%b9%9dsuch-as-and-etc&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;二者表示同一个意思，不能在一个句子里连用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;第二部分&#34; &gt;第二部分
+&lt;span&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e9%83%a8%e5%88%86&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;其他常见错误：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;直接根据中文翻译，导致容易语意重复的词语。&lt;/li&gt;
+&lt;li&gt;Never begin an English sentence with abbreviations and Arabic numerals such as Fig. and 8. Instead write Figure and Eight.永远不要用缩写或阿拉伯数字作为英文句子的开头&lt;/li&gt;
+&lt;li&gt;Do not write ‘by this way’. Instead write ‘by doing this’, or ‘using this method’.&lt;/li&gt;
+&lt;li&gt;Never write ‘How to…’ at the beginning of a sentence.&lt;/li&gt;
+&lt;li&gt;Do write ‘the results are shown in Figure 2’. Do not write ‘the results are showed as Figure 2’.&lt;/li&gt;
+&lt;li&gt;Refrain from using the word obviously in a technical paper（因为paper中常常是需要解释的，而不是不言自明的）&lt;/li&gt;
+&lt;li&gt;Avoid overusing the phrases ‘that is to say’ and ‘namely’. Instead, try to convey your meaning in one sentence.&lt;/li&gt;
+&lt;li&gt;Do not use ‘too’ at the end of a written sentence, especially in a technical paper.（直接在句中用also）&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>
