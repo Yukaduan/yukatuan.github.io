@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>🌴DOM事件與事件委托 - 魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</title>
+
+<meta name="description" content="本文主要介紹了“捕獲”（Capture Phase）與“冒泡”（Bubbling Phase）兩種JS點擊事件后的響應順序。">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://yukatuan.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://yukatuan.github.io/favicon.png">
+
+
+<style>
+  body {
+    visibility: hidden;
+    opacity: 0;
+  }
+</style>
+
+<noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="https://yukatuan.github.io/css/style.min.e0f5056eba3756171e9e44ee34aadd0b0ed25c04b5eb4c4ac999220e543ae93c.css" integrity="sha256-4PUFbro3VhcenkTuNKrdCw7SXAS160xKyZkiDlQ66Tw=">
+    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="https://yukatuan.github.io/js/script.min.a65afe903825231554d9b55b073eb144da4ccf2d2823b216dcbc6cc656c9de76.js" type="text/javascript" charset="utf-8" integrity="sha256-plr&#43;kDglIxVU2bVbBz6xRNpMzy0oI7IW3LxsxlbJ3nY="></script>
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="🌴DOM事件與事件委托" />
+<meta property="og:description" content="本文主要介紹了“捕獲”（Capture Phase）與“冒泡”（Bubbling Phase）兩種JS點擊事件后的響應順序。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yukatuan.github.io/zh/post/dom%E4%BA%8B%E4%BB%B6%E8%88%87%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-04T22:31:50+08:00" />
+<meta property="article:modified_time" content="2022-06-04T22:31:50+08:00" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="🌴DOM事件與事件委托"/>
+<meta name="twitter:description" content="本文主要介紹了“捕獲”（Capture Phase）與“冒泡”（Bubbling Phase）兩種JS點擊事件后的響應順序。"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <div class="header-top">
+    <h1 class="site-title">
+    <a href="/zh">魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</a>
+</h1>
+    <ul class="social-icons">
+
+
+    
+        <li>
+            <a href="https://github.com/Yukatuan" title="Github" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+    <li>
+            <a href="https://yukatuan.github.io/zh/index.xml" title="RSS" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+</div>
+
+    <nav>
+        
+        
+        <a class="" href="https://yukatuan.github.io/zh/about/" title="">關於 🗿</a>
+        
+        <a class="" href="https://yukatuan.github.io/zh/tags/" title="">標簽 🔖</a>
+        
+        <a class="" href="https://yukatuan.github.io/zh/categories/" title="">目錄 📁</a>
+        
+        <a class="" href="https://yukatuan.github.io/zh/posts/" title="">歸檔 💾</a>
+        
+    </nav>
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">🌴DOM事件與事件委托</h1>
+
+                
+            </header>
+        </div>
+        <div class="content e-content">
+            <p>本文主要介紹了“捕獲”（Capture Phase）與“冒泡”（Bubbling Phase）兩種JS點擊事件后的響應順序。</p>
+<h2 id="捕獲與冒泡" >捕獲與冒泡
+<span>
+    <a href="#%e6%8d%95%e7%8d%b2%e8%88%87%e5%86%92%e6%b3%a1">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><h3 id="點擊事件" >點擊事件
+<span>
+    <a href="#%e9%bb%9e%e6%93%8a%e4%ba%8b%e4%bb%b6">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>添加事件監聽</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">堯</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">舜</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">禹</span>&gt;
+</span></span><span style="display:flex;"><span>      文字
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>給三個&lt;/<span style="color:#f92672">div</span>&gt;分別添加事件監聽 fnYao / fnShun / fnYu
+</span></span></code></pre></div><ul>
+<li>點擊&rsquo;文字&rsquo;即點擊&rsquo;堯舜禹&rsquo;三者；</li>
+<li>調用順序（根據瀏覽器不同）
+<ul>
+<li>W3C標準：DOM Level 2 Events Specification</li>
+<li>同時支持&rsquo;堯舜禹&rsquo;和&rsquo;禹舜堯&rsquo;兩種順序（先後調用）</li>
+<li>有監聽函數就調用，并提供事件信息，沒有就跳過</li>
+</ul>
+</li>
+<li>&lsquo;堯舜禹&rsquo;（從外到内）——&lsquo;事件捕獲&rsquo; （Capture Phase）</li>
+<li>&lsquo;禹舜堯&rsquo;（從内到外）——&lsquo;事件冒泡&rsquo;（Bubbling Phase）</li>
+</ul>
+<p>開發者自己選擇按照哪種模式。</p>
+<h2 id="w3c事件模型" >W3C事件模型
+<span>
+    <a href="#w3c%e4%ba%8b%e4%bb%b6%e6%a8%a1%e5%9e%8b">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><h3 id="addeventlistener" >addEventListener
+<span>
+    <a href="#addeventlistener">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><h4 id="事件绑定-api" >事件绑定 API
+<span>
+    <a href="#%e4%ba%8b%e4%bb%b6%e7%bb%91%e5%ae%9a-api">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><p>IE 5*：baba.attachEvent(&lsquo;onclick&rsquo;, fn) // 冒泡
+網景：baba.addEventListener(&lsquo;click&rsquo;,fn) // 捕獲
+W3C：baba.addEventListener(&lsquo;click&rsquo;, fn, bool)</p>
+<ul>
+<li><strong>如果 bool 不傳或為 falsy</strong></li>
+</ul>
+<p>就让 fn 走冒泡，即当瀏覽器在冒泡階段發現 baba 有 fn 監聽函數，就会調用 fn，并提供事件信息</p>
+<ul>
+<li><strong>如果 bool 為 true</strong></li>
+</ul>
+<p>就让 fn 走捕獲，即当瀏覽器在捕獲階段發現 baba 有 fn 監聽函數，就会調用 fn ，并提供事件信息</p>
+<h3 id="targetcurrenttarget取消冒泡" >target、currentTarget、取消冒泡
+<span>
+    <a href="#targetcurrenttarget%e5%8f%96%e6%b6%88%e5%86%92%e6%b3%a1">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>target v.s. currentTarget</p>
+<h4 id="區別" >區別
+<span>
+    <a href="#%e5%8d%80%e5%88%a5">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><p>e.target - 用戶操作的元素
+e.currentTarget - 程序員監聽的元素
+this 是 e.currentTarget（不建議使用）</p>
+<h4 id="舉例" >舉例
+<span>
+    <a href="#%e8%88%89%e4%be%8b">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><p>div &gt; span{文字}，用戶點擊文字
+e.target 就是 span
+e.currentTarget 就是 div</p>
+<h4 id="取消冒泡" >取消冒泡
+<span>
+    <a href="#%e5%8f%96%e6%b6%88%e5%86%92%e6%b3%a1">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><p>捕獲不能取消，冒泡可以。
+e.stopPropagation() 可中斷冒泡（用於封裝獨立組件）</p>
+<h4 id="不可取消冒泡" >不可取消冒泡
+<span>
+    <a href="#%e4%b8%8d%e5%8f%af%e5%8f%96%e6%b6%88%e5%86%92%e6%b3%a1">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h4><p>有些事件不能阻止默认动作
+在MDN中搜索scroll event（不可取消）</p>
+<p><strong>？如何阻止滾動</strong>
+x.addEventListener(&lsquo;wheel&rsquo;, (e)=&gt;{e.preventDefault()})
+禁用滾輪
+x.addEventListener(&rsquo;touchstart&rsquo;, (e)=&gt;{e.preventDefault()})
+手機端禁用觸屏
+overflow:hidden
+::-webkit-scrollbar{width:0!important}
+CSS中取消滾動條</p>
+<h3 id="自定義事件" >自定義事件
+<span>
+    <a href="#%e8%87%aa%e5%ae%9a%e7%be%a9%e4%ba%8b%e4%bb%b6">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>自帶默認100+，詳見MDN文檔。
+用戶也可以自定義。</p>
+<h3 id="事件委托" >事件委托
+<span>
+    <a href="#%e4%ba%8b%e4%bb%b6%e5%a7%94%e6%89%98">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>監聽多個元素：
+監聽其“上一代”元素</p>
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+        <div class="post-date dt-published">2022-06-04</div>
+    
+
+    <a class="post-hidden-url u-url" href="https://yukatuan.github.io/zh/post/dom%E4%BA%8B%E4%BB%B6%E8%88%87%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/">https://yukatuan.github.io/zh/post/dom%E4%BA%8B%E4%BB%B6%E8%88%87%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</a>
+    <a href="https://yukatuan.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Yuka Tuan</a>
+
+
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    
+                    <li><a href="https://yukatuan.github.io/zh/categories/%E7%A7%91%E6%8A%80/">科技</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        
+                        <li><a href="https://yukatuan.github.io/zh/tags/javascript/">#JavaScript</a></li>
+                    
+                        
+                        <li><a href="https://yukatuan.github.io/zh/tags/dom/">#DOM</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+        
+    
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item disabled">
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/zh/post/emoji-support/">🌴  Emoji 使用方法 </a>
+            
+        </div>
+    </div>
+
+
+
+
+    
+
+    
+        
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Yuka" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+
+
+
+
+    
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+        <ul class="language-select">
+    
+    
+    
+        
+    
+
+    
+        
+            <li>繁體中文</li>
+        
+    
+        
+            <li><a href="https://yukatuan.github.io/">English</a></li>
+        
+    
+</ul>
+
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© 🐟☕ Yuka | 日知其所亡，月無亡所能, 2022<br>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.<br>
+            
+            </p>  
+        </div> 
+
+        
+
+    
+
+
+
+    <button class="theme-switcher">
+        Dark theme
+    </button>
+
+
+<script>
+const STORAGE_KEY = 'user-color-scheme'
+const defaultTheme = "auto"
+
+let currentTheme
+let switchButton
+let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+const autoChangeScheme = e => {
+    currentTheme = e.matches ? 'dark' : 'light'
+    document.documentElement.setAttribute('data-theme', currentTheme)
+    changeButtonText()
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    switchButton = document.querySelector('.theme-switcher')
+    currentTheme = detectCurrentScheme()
+    if (currentTheme == 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark')
+    }
+    if (currentTheme == 'auto') {
+        autoChangeScheme(autoDefinedScheme);
+        autoDefinedScheme.addListener(autoChangeScheme);
+    }
+
+    if (switchButton) {
+        changeButtonText()
+        switchButton.addEventListener('click', switchTheme, false)
+    }
+  
+    showContent()
+})
+
+function detectCurrentScheme() {
+    if (localStorage.getItem(STORAGE_KEY)) {
+        return localStorage.getItem(STORAGE_KEY)
+    } 
+    if (defaultTheme) {
+        return defaultTheme
+    } 
+    if (!window.matchMedia) {
+        return 'light'
+    } 
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark'
+    }
+    return 'light'
+}
+
+function changeButtonText()
+{   
+    if (switchButton) {
+        switchButton.textContent = currentTheme == 'dark' ?  "Light theme" : "Dark theme"
+    }
+}
+
+function switchTheme(e) {
+    if (currentTheme == 'dark') {
+        localStorage.setItem(STORAGE_KEY, 'light')
+        document.documentElement.setAttribute('data-theme', 'light')
+        currentTheme = 'light'
+    } else {
+        localStorage.setItem(STORAGE_KEY, 'dark')
+        document.documentElement.setAttribute('data-theme', 'dark')
+        currentTheme = 'dark'
+    }
+    changeButtonText()
+}
+
+function showContent() {
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
+}
+</script>   
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://yukatuan.github.io/ class="p-name u-url url fn" rel="me">🐟☕ Yuka | 日知其所亡，月無亡所能</a> 
+
+    
+
+    
+</p> 
+</footer>
+
+        
+    </div>
+</body>
+</html>

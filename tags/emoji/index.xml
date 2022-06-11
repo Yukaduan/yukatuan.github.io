@@ -5,61 +5,56 @@
     <link>https://yukatuan.github.io/tags/emoji/</link>
     <description>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog (emoji)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
+    <language>en</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>🌴  Emoji 使用方法 </title>
+      <title>🍑 How to Use Emoji</title>
       <link>https://yukatuan.github.io/post/emoji-support/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/post/emoji-support/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;本文主要介紹Emoji 在Hugo框架下的使用方法，給你的博客文章加點可愛的emoji。&lt;/p&gt;
+&lt;p&gt;This article mainly introduces the use of Emoji in the Hugo framework, adding cute emoji to your blog posts.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;實現方式&#34; &gt;實現方式
+&lt;h3 id=&#34;method-to-realize&#34; &gt;Method to realize
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%af%a6%e7%8f%be%e6%96%b9%e5%bc%8f&#34;&gt;
+    &lt;a href=&#34;#method-to-realize&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;在文章中顯示Emoji可以直接調用&lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; 函數并使用 &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;功能實現。&lt;/p&gt;
-&lt;p&gt;p.s.: 開啓InlineShortcodes后會擁有很多强大的功能，例如插入油管視頻等。&lt;/p&gt;
-&lt;p&gt;此處正好和大家一起欣賞下Jinyoung的《Dive》~~&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 朴振英 🙅‍♀️&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 朴珍榮
-❤️&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h3&gt;&lt;p&gt;Displaying Emoji in the article can directly call the &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; function and use the [Inline Shortcodes](&lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-&#34;&gt;https://gohugo.io/templates/shortcode-templates/#inline-&lt;/a&gt; shortcodes) function implementation.&lt;/p&gt;
+&lt;p&gt;p.s.: After opening InlineShortcodes, it will have many powerful functions, such as inserting YouTube videos, etc.&lt;/p&gt;
+&lt;p&gt;Here is just a chance to enjoy Jinyoung&amp;rsquo;s &amp;ldquo;Dive&amp;rdquo; with you~~&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/2WLtAOR5vlE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;hr&gt;
-&lt;h3 id=&#34;具體方法&#34; &gt;具體方法
+&lt;h3 id=&#34;detailed-method&#34; &gt;Detailed Method
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%85%b7%e9%ab%94%e6%96%b9%e6%b3%95&#34;&gt;
+    &lt;a href=&#34;#detailed-method&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;如果需要全局使用，需要將網站根目錄中“config.toml, config.yaml, 或 config.json ” （根據具體情況判斷，我的文件時config.toml，因此下方代碼也是用.toml文件的修改方式舉例。其他文件的修改方式請見上文Inline Shortcodes鏈接中的内容）文件中添加兩行代碼：&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;If you need to use it globally, you need to put &amp;ldquo;config.toml, config.yaml, or config.json&amp;rdquo; in the root directory of the website (according to the specific situation, my file is config.toml, so the following code is also modified by the .toml file For example. For the modification method of other files, please refer to the content in the Inline Shortcodes link above) Add two lines of code to the file:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;enableInlineShortcodes = true
 enableEmoji = true
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣就可以直接在網站中使用emoji了，輸入emoji對應的代碼后，效果如下：&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In this way, emoji can be used directly in the website. After entering the code corresponding to emoji, the effect is as follows:&lt;/p&gt;
 &lt;p&gt;I ❤️ Coding.
 🌴📎🔮☂️🍑☁️☁️❄️📌🍄❕&lt;/p&gt;
-&lt;h3 id=&#34;emoji代碼&#34; &gt;Emoji代碼
+&lt;h3 id=&#34;emoji-code&#34; &gt;Emoji Code
 &lt;span&gt;
-    &lt;a href=&#34;#emoji%e4%bb%a3%e7%a2%bc&#34;&gt;
+    &lt;a href=&#34;#emoji-code&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;Emoji對應代碼備忘錄請見: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;此外你也可以直接從其他地方粘貼相應的emoji，就能在博客的任何一個地方顯示了。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;Please see Emoji cheatsheet at: &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;In addition, you can also paste the corresponding emoji directly from other places, and you can display it anywhere on the blog.&lt;/p&gt;
 &lt;p&gt;🍑&lt;/p&gt;</description>
     </item>
     

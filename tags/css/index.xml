@@ -5,87 +5,87 @@
     <link>https://yukatuan.github.io/tags/css/</link>
     <description>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog (css)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
+    <language>en</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>🌴 Markdown語法規則</title>
+      <title>🍑 Markdown Syntax</title>
       <link>https://yukatuan.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://yukatuan.github.io/post/markdown-syntax/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;本文詳細列舉了Hugo文件中的markdown語法規則，學會了就能愉快地開始博客寫作了。&lt;/p&gt;
+&lt;p&gt;This article lists the markdown grammar rules in Hugo files in detail, and you can start blogging happily after you learn it.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;標題&#34; &gt;標題
+&lt;h2 id=&#34;header&#34; &gt;Header
 &lt;span&gt;
-    &lt;a href=&#34;#%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#header&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;如下六個 HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; 元素代表了六個級別的章節標題。 &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; 最高， &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; 最低。&lt;/p&gt;
-&lt;h1 id=&#34;一級標題&#34; &gt;一級標題
+&lt;/h2&gt;&lt;p&gt;The following six HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest, &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;level-1-heading&#34; &gt;Level 1 heading
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%80%e7%b4%9a%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#level-1-heading&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h1&gt;&lt;h2 id=&#34;二級標題&#34; &gt;二級標題
+&lt;/h1&gt;&lt;h2 id=&#34;level-2-heading&#34; &gt;Level 2 heading
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%ba%8c%e7%b4%9a%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#level-2-heading&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;h3 id=&#34;三級標題&#34; &gt;三級標題
+&lt;/h2&gt;&lt;h3 id=&#34;level-3-heading&#34; &gt;Level 3 heading
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%89%e7%b4%9a%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#level-3-heading&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;四級標題&#34; &gt;四級標題
+&lt;/h3&gt;&lt;h4 id=&#34;level-4-heading&#34; &gt;Level 4 heading
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%9b%9b%e7%b4%9a%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#level-4-heading&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h4&gt;&lt;h5 id=&#34;五級標題&#34; &gt;五級標題
+&lt;/h4&gt;&lt;h5 id=&#34;level-5-heading&#34; &gt;Level 5 heading
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%ba%94%e7%b4%9a%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#level-5-heading&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h5&gt;&lt;h6 id=&#34;六級標題&#34; &gt;六級標題
+&lt;/h5&gt;&lt;h6 id=&#34;level-6-heading&#34; &gt;Level 6 heading
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%85%ad%e7%b4%9a%e6%a8%99%e9%a1%8c&#34;&gt;
+    &lt;a href=&#34;#level-6-heading&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h6&gt;&lt;h2 id=&#34;段落&#34; &gt;段落
+&lt;/h6&gt;&lt;h2 id=&#34;paragraph&#34; &gt;Paragraph
 &lt;span&gt;
-    &lt;a href=&#34;#%e6%ae%b5%e8%90%bd&#34;&gt;
+    &lt;a href=&#34;#paragraph&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;他们只是坐在电视和电脑前，看着那里传播的各种信息和娱乐，到死都是如此，就这样漫无目的地生活。无论吃饭还是洗澡，工作还是恋爱，都只是去完成而已。他们毫无自觉地消磨时间，却还要感叹人生苦短。他们靠免费的娱乐度日，陪伴他们的是电视和网络。丰富的信息和单调的生活只能产生武断的想法和憎恨。——《魔王》伊坂倖太郎&lt;/p&gt;
-&lt;h2 id=&#34;引用&#34; &gt;引用
+&lt;/h2&gt;&lt;p&gt;They just sit in front of TVs and computers and watch all the information and entertainment spread there until they die, living aimlessly like this. Whether eating or taking a bath, working or falling in love, it&amp;rsquo;s all just done. They pass the time unconsciously, but still lament how short life is. They live off free entertainment, accompanied by television and the Internet. A wealth of information and a monotonous life can only generate arbitrary ideas and hatred. ——&amp;ldquo;The Demon King&amp;rdquo; Kotaro Isaka&lt;/p&gt;
+&lt;h2 id=&#34;citation&#34; &gt;Citation
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%bc%95%e7%94%a8&#34;&gt;
+    &lt;a href=&#34;#citation&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;“引用”元素表示從另一個來源引用的內容，可選擇在 &lt;code&gt;footer&lt;/code&gt;或&lt;code&gt;cite&lt;/code&gt; 元素內引用，也可以和註釋和縮寫等內聯更改。&lt;/p&gt;
-&lt;h4 id=&#34;無注釋的引用&#34; &gt;無注釋的引用
+&lt;/h2&gt;&lt;p&gt;The &amp;ldquo;citing&amp;rdquo; element represents content cited from another source, optionally within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and can also be changed inline with notes and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34; &gt;Blockquote without attribution
 &lt;span&gt;
-    &lt;a href=&#34;#%e7%84%a1%e6%b3%a8%e9%87%8b%e7%9a%84%e5%bc%95%e7%94%a8&#34;&gt;
+    &lt;a href=&#34;#blockquote-without-attribution&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;丰富的信息和单调的生活只能产生武断的想法和憎恨。
-&lt;strong&gt;注意&lt;/strong&gt; 在引用内部也可以使用 &lt;em&gt;Markdown語法規則&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;A wealth of information and a monotonous life can only generate arbitrary ideas and hatred.
+&lt;strong&gt;NOTE&lt;/strong&gt; You can also use &lt;em&gt;Markdown syntax rules&lt;/em&gt; inside quotes.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;blockquote-with-attribution&#34; &gt;Blockquote with attribution
 &lt;span&gt;
@@ -94,17 +94,17 @@
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;丰富的信息和单调的生活只能产生武断的想法和憎恨。&lt;/p&gt;
-— &lt;cite&gt;《魔王》伊坂倖太郎&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;A wealth of information and a monotonous life can only generate arbitrary ideas and hatred.&lt;/p&gt;
+— &lt;cite&gt;&amp;ldquo;Demon King&amp;rdquo; Kotaro Isaka&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;表格&#34; &gt;表格
+&lt;h2 id=&#34;form&#34; &gt;Form
 &lt;span&gt;
-    &lt;a href=&#34;#%e8%a1%a8%e6%a0%bc&#34;&gt;
+    &lt;a href=&#34;#form&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;表格不是核心 Markdown 規範的一部分，但 Hugo 支持該語法的使用。&lt;/p&gt;
-&lt;p&gt;用表格形式表示一下OR語法的布爾值：&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;Tables are not part of the core Markdown specification, but Hugo supports the use of this syntax.&lt;/p&gt;
+&lt;p&gt;Let’s represent the boolean values of OR syntax in tabular form:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -126,39 +126,39 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;在表格中使用markdown語法&#34; &gt;在表格中使用markdown語法
+&lt;h4 id=&#34;use-markdown-inside-form&#34; &gt;Use Markdown Inside Form
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%9c%a8%e8%a1%a8%e6%a0%bc%e4%b8%ad%e4%bd%bf%e7%94%a8markdown%e8%aa%9e%e6%b3%95&#34;&gt;
+    &lt;a href=&#34;#use-markdown-inside-form&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h4&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;在表格中   &lt;/th&gt;
-&lt;th&gt;使用   &lt;/th&gt;
-&lt;th&gt;Markdown   &lt;/th&gt;
-&lt;th&gt;語法&lt;/th&gt;
+&lt;th&gt;Use   &lt;/th&gt;
+&lt;th&gt;Markdown    &lt;/th&gt;
+&lt;th&gt;Inside    &lt;/th&gt;
+&lt;th&gt;Form&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;em&gt;斜體&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;加粗&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;del&gt;刪除綫&lt;/del&gt;   &lt;/td&gt;
-&lt;td&gt;&lt;code&gt;代碼&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;italic&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;del&gt;delete&lt;/del&gt;   &lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;代碼塊&#34; &gt;代碼塊
+&lt;h2 id=&#34;code-block&#34; &gt;Code Block
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%bb%a3%e7%a2%bc%e5%a1%8a&#34;&gt;
+    &lt;a href=&#34;#code-block&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;h4 id=&#34;使用反引號的代碼塊&#34; &gt;使用反引號的代碼塊
+&lt;/h2&gt;&lt;h4 id=&#34;code-block-using-backticks&#34; &gt;Code Block Using Backticks
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8%e5%8f%8d%e5%bc%95%e8%99%9f%e7%9a%84%e4%bb%a3%e7%a2%bc%e5%a1%8a&#34;&gt;
+    &lt;a href=&#34;#code-block-using-backticks&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
@@ -172,13 +172,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;縮進四個空格的代碼塊&#34; &gt;縮進四個空格的代碼塊
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-by-four-spaces&#34; &gt;Code block indented by four spaces
 &lt;span&gt;
-    &lt;a href=&#34;#%e7%b8%ae%e9%80%b2%e5%9b%9b%e5%80%8b%e7%a9%ba%e6%a0%bc%e7%9a%84%e4%bb%a3%e7%a2%bc%e5%a1%8a&#34;&gt;
+    &lt;a href=&#34;#code-block-indented-by-four-spaces&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h4&gt;&lt;p&gt;（即按兩下Tab）&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;(i.e. press Tab twice)&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
@@ -190,9 +190,9 @@
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;帶有-hugo-內部高亮簡碼的代碼塊&#34; &gt;帶有 Hugo 內部高亮簡碼的代碼塊
+&lt;h4 id=&#34;code-blocks-with-hugo-internal-highlighting-shortcodes&#34; &gt;Code blocks with Hugo internal highlighting shortcodes
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%b8%b6%e6%9c%89-hugo-%e5%85%a7%e9%83%a8%e9%ab%98%e4%ba%ae%e7%b0%a1%e7%a2%bc%e7%9a%84%e4%bb%a3%e7%a2%bc%e5%a1%8a&#34;&gt;
+    &lt;a href=&#34;#code-blocks-with-hugo-internal-highlighting-shortcodes&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
@@ -206,91 +206,90 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&#34;列表類型&#34; &gt;列表類型
+&lt;h2 id=&#34;list-type&#34; &gt;List type
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%88%97%e8%a1%a8%e9%a1%9e%e5%9e%8b&#34;&gt;
+    &lt;a href=&#34;#list-type&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;h4 id=&#34;有序列表&#34; &gt;有序列表
+&lt;/h2&gt;&lt;h4 id=&#34;ordered-list&#34; &gt;Ordered List
 &lt;span&gt;
-    &lt;a href=&#34;#%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8&#34;&gt;
+    &lt;a href=&#34;#ordered-list&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;吃好&lt;/li&gt;
-&lt;li&gt;學好&lt;/li&gt;
-&lt;li&gt;玩好&lt;/li&gt;
+&lt;li&gt;Eat well&lt;/li&gt;
+&lt;li&gt;Study well&lt;/li&gt;
+&lt;li&gt;Play well&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;無序列表&#34; &gt;無序列表
+&lt;h4 id=&#34;unordered-list&#34; &gt;Unordered List
 &lt;span&gt;
-    &lt;a href=&#34;#%e7%84%a1%e5%ba%8f%e5%88%97%e8%a1%a8&#34;&gt;
+    &lt;a href=&#34;#unordered-list&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;科技&lt;/li&gt;
-&lt;li&gt;法律&lt;/li&gt;
-&lt;li&gt;語言&lt;/li&gt;
+&lt;li&gt;Tech&lt;/li&gt;
+&lt;li&gt;Law&lt;/li&gt;
+&lt;li&gt;Lingo&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;插入圖片&#34; &gt;插入圖片
+&lt;h2 id=&#34;insert-pic&#34; &gt;Insert Pic
 &lt;span&gt;
-    &lt;a href=&#34;#%e6%8f%92%e5%85%a5%e5%9c%96%e7%89%87&#34;&gt;
+    &lt;a href=&#34;#insert-pic&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;先把圖片放入&lt;code&gt;static&lt;/code&gt;目錄，然後輸入：&lt;code&gt;![xxx](/1.png)&lt;/code&gt;，就可以得到一張完整的圖片了~
-&lt;img src=&#34;https://yukatuan.github.io/1.png&#34; alt=&#34;前端學習體系圖&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;其他元素--縮寫abbr-下標sub-上標sup-快捷鍵kbd-高亮mark&#34; &gt;其他元素 — 縮寫（abbr）, 下標（sub）, 上標（sup）, 快捷鍵（kbd）, 高亮（mark）
+&lt;/h2&gt;&lt;p&gt;First put the picture into the &lt;code&gt;static&lt;/code&gt; directory, then enter: &lt;code&gt;![xxx](/1.png)&lt;/code&gt;, you can get a complete picture~
+&lt;img src=&#34;https://yukatuan.github.io/1.png&#34; alt=&#34;Front-end learning system diagram&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;other-elements--abbreviation-abbr-subscript-sub-superscript-sup-shortcut-kbd-highlight-mark&#34; &gt;Other elements — abbreviation (abbr), subscript (sub), superscript (sup), shortcut (kbd), highlight (mark)
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%85%b6%e4%bb%96%e5%85%83%e7%b4%a0--%e7%b8%ae%e5%af%ababbr-%e4%b8%8b%e6%a8%99sub-%e4%b8%8a%e6%a8%99sup-%e5%bf%ab%e6%8d%b7%e9%8d%b5kbd-%e9%ab%98%e4%ba%aemark&#34;&gt;
+    &lt;a href=&#34;#other-elements--abbreviation-abbr-subscript-sub-superscript-sup-shortcut-kbd-highlight-mark&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;除了縮寫是：&lt;code&gt;&amp;lt;abbr title=&amp;quot;&amp;quot;&amp;gt;xxx&amp;lt;/abbr&amp;gt;&lt;/code&gt;之外，
-其他都用對應的縮寫包裹&lt;code&gt;&amp;lt;sub&amp;gt;&amp;lt;/sbu&amp;gt;&lt;/code&gt;即可。&lt;/p&gt;
-&lt;h3 id=&#34;縮寫abbr&#34; &gt;縮寫（abbr）
+&lt;/h2&gt;&lt;p&gt;Except the abbreviation is: &lt;code&gt;&amp;lt;abbr title=&amp;quot;&amp;quot;&amp;gt;xxx&amp;lt;/abbr&amp;gt;&lt;/code&gt;,
+Others can be wrapped with the corresponding abbreviation &lt;code&gt;&amp;lt;sub&amp;gt;&amp;lt;/sbu&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;abbr&#34; &gt;abbr
 &lt;span&gt;
-    &lt;a href=&#34;#%e7%b8%ae%e5%af%ababbr&#34;&gt;
+    &lt;a href=&#34;#abbr&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;&lt;abbr title=&#34;yong yuan de shen&#34;&gt;yyds&lt;/abbr&gt; 表示“永遠的神”.&lt;/p&gt;
-&lt;h3 id=&#34;下標sub&#34; &gt;下標（sub）
+&lt;h3 id=&#34;sub&#34; &gt;sub
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%8b%e6%a8%99sub&#34;&gt;
+    &lt;a href=&#34;#sub&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
-&lt;h3 id=&#34;上標sup&#34; &gt;上標（sup）
+&lt;h3 id=&#34;sup&#34; &gt;sup
 &lt;span&gt;
-    &lt;a href=&#34;#%e4%b8%8a%e6%a8%99sup&#34;&gt;
+    &lt;a href=&#34;#sup&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
-&lt;h3 id=&#34;快捷鍵kbd&#34; &gt;快捷鍵（kbd）
+&lt;h3 id=&#34;kbd&#34; &gt;kbd
 &lt;span&gt;
-    &lt;a href=&#34;#%e5%bf%ab%e6%8d%b7%e9%8d%b5kbd&#34;&gt;
+    &lt;a href=&#34;#kbd&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;同時按住 &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;W&lt;/kbd&gt;&lt;/kbd&gt; 關閉本頁面（建議看完最後一行再按喔）。&lt;/p&gt;
-&lt;h3 id=&#34;高亮mark&#34; &gt;高亮（mark）
+&lt;/h3&gt;&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;W&lt;/kbd&gt;&lt;/kbd&gt; at the same time (press it after you finish reading)。&lt;/p&gt;
+&lt;h3 id=&#34;mark&#34; &gt;mark
 &lt;span&gt;
-    &lt;a href=&#34;#%e9%ab%98%e4%ba%aemark&#34;&gt;
+    &lt;a href=&#34;#mark&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;恭喜你！ 已經學會了所有的&lt;mark&gt;markdown語法&lt;/mark&gt; 可以關閉此頁面了~&lt;/p&gt;
-&lt;p&gt;🍑&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;Congratulation! You have learned all the &lt;mark&gt;markdown syntax&lt;/mark&gt; and you can close this page~&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;伊坂幸太郎是一位畢業於日本東北大學法學院的小説家， &lt;a href=&#34;https://book.douban.com/author/4524979/&#34;&gt;豆瓣簡介&lt;/a&gt; 。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Isaka Kotaro is a novelist who graduated from Tohoku University Law School in Japan  &lt;a href=&#34;https://book.douban.com/author/4524979/&#34;&gt;Douban&lt;/a&gt; 。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
