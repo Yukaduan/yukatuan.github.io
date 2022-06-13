@@ -17,7 +17,9 @@
       <pubDate>Sat, 04 Jun 2022 22:31:50 +0800</pubDate>
       
       <guid>https://yukatuan.github.io/zh/post/dom%E4%BA%8B%E4%BB%B6%E8%88%87%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</guid>
-      <description>&lt;p&gt;本文主要介紹了“捕獲”（Capture Phase）與“冒泡”（Bubbling Phase）兩種JS點擊事件后的響應順序。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文主要介紹了“捕獲”（Capture Phase）與“冒泡”（Bubbling Phase）兩種JS點擊事件后的響應順序。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;捕獲與冒泡&#34; &gt;捕獲與冒泡
 &lt;span&gt;
     &lt;a href=&#34;#%e6%8d%95%e7%8d%b2%e8%88%87%e5%86%92%e6%b3%a1&#34;&gt;

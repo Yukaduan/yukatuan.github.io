@@ -2,11 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yukatuan.github.io/zh/post/dom%E4%BA%8B%E4%BB%B6%E8%88%87%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+    <loc>https://yukatuan.github.io/zh/post/second-language/</loc>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yukatuan.github.io/post/second-language/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yukatuan.github.io/zh/post/second-language/"
+                />
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/tags/acquisition/</loc>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yukatuan.github.io/tags/acquisition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yukatuan.github.io/zh/tags/acquisition/"
+                />
   </url><url>
     <loc>https://yukatuan.github.io/zh/categories/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,14 +41,21 @@
                 href="https://yukatuan.github.io/zh/categories/"
                 />
   </url><url>
-    <loc>https://yukatuan.github.io/zh/tags/dom/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/zh/tags/javascript/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+    <loc>https://yukatuan.github.io/zh/tags/language/</loc>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yukatuan.github.io/tags/language/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yukatuan.github.io/zh/tags/language/"
+                />
   </url><url>
     <loc>https://yukatuan.github.io/zh/post/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -38,7 +68,7 @@
                 />
   </url><url>
     <loc>https://yukatuan.github.io/zh/tags/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,11 +80,8 @@
                 href="https://yukatuan.github.io/zh/tags/"
                 />
   </url><url>
-    <loc>https://yukatuan.github.io/zh/categories/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
-  </url><url>
     <loc>https://yukatuan.github.io/zh/</loc>
-    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -65,6 +92,21 @@
                 hreflang="zh"
                 href="https://yukatuan.github.io/zh/"
                 />
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/categories/%E8%AA%9E%E8%A8%80/</loc>
+    <lastmod>2022-06-13T22:13:59+08:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/post/dom%E4%BA%8B%E4%BB%B6%E8%88%87%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</loc>
+    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/tags/dom/</loc>
+    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/tags/javascript/</loc>
+    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/categories/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2022-06-04T22:31:50+08:00</lastmod>
   </url><url>
     <loc>https://yukatuan.github.io/zh/post/emoji-support/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
@@ -197,6 +239,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://yukatuan.github.io/zh/tags/hugo/"
+                />
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/archives/</loc>
+    <lastmod>2022-05-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yukatuan.github.io/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yukatuan.github.io/zh/archives/"
                 />
   </url><url>
     <loc>https://yukatuan.github.io/zh/about/subpage2/</loc>
