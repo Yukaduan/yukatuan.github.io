@@ -96,6 +96,19 @@
                 href="https://yukatuan.github.io/tags/"
                 />
   </url><url>
+    <loc>https://yukatuan.github.io/archives/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yukatuan.github.io/zh/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yukatuan.github.io/archives/"
+                />
+  </url><url>
     <loc>https://yukatuan.github.io/post/emoji-support/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -230,19 +243,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://yukatuan.github.io/tags/hugo/"
-                />
-  </url><url>
-    <loc>https://yukatuan.github.io/archives/</loc>
-    <lastmod>2022-05-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://yukatuan.github.io/zh/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yukatuan.github.io/archives/"
                 />
   </url><url>
     <loc>https://yukatuan.github.io/about/subpage2/</loc>

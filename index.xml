@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</title>
+    <title>Yuka&#39;s Tech Blog 💻 | 📱 魚咖的技術博客</title>
     <link>https://yukatuan.github.io/</link>
-    <description>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</description>
+    <description>Yuka&#39;s Tech Blog 💻 | 📱 魚咖的技術博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Mon, 13 Jun 2022 22:13:59 +0800</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,9 @@
       <pubDate>Mon, 13 Jun 2022 22:13:59 +0800</pubDate>
       
       <guid>https://yukatuan.github.io/post/second-language/</guid>
-      <description>&lt;p&gt;This article mainly introduces some practical methods to acquire foreign languages ​​scientifically. The reference book is &lt;a href=&#34;https://book.douban.com/subject/35424870/&#34;&gt;Science of Foreign Language acquisition&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This article mainly introduces some practical methods to acquire foreign languages ​​scientifically. The reference book is &lt;a href=&#34;https://book.douban.com/subject/35424870/&#34;&gt;Science of Foreign Language acquisition&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;Focus on Single Area for Input&lt;/li&gt;
 &lt;/ol&gt;
@@ -122,6 +124,15 @@
 &lt;li&gt;Natural Pedagogy - Grammar can be reserved for after-school learning, and students should be given comprehensible input practice in class.&lt;/li&gt;
 &lt;li&gt;Input-interaction mode - simulate interviews with learned grammar, communicate around things around you, covering various sentence patterns and expressions.&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yukatuan.github.io/archives/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukatuan.github.io/archives/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -581,15 +592,6 @@ which means ignore my &lt;code&gt;public&lt;/code&gt;, it will become a new fold
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;In addition, you can also Google &amp;ldquo;Hugo insert picture&amp;rdquo; to find the answer.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yukatuan.github.io/archives/</link>
-      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://yukatuan.github.io/archives/</guid>
-      <description></description>
     </item>
     
     <item>

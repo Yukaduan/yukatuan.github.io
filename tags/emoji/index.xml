@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emoji on 魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</title>
+    <title>emoji on Yuka&#39;s Tech Blog 💻 | 📱 魚咖的技術博客</title>
     <link>https://yukatuan.github.io/tags/emoji/</link>
-    <description>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog (emoji)</description>
+    <description>Yuka&#39;s Tech Blog 💻 | 📱 魚咖的技術博客 (emoji)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />

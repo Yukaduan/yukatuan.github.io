@@ -5,7 +5,7 @@
     <link>https://yukatuan.github.io/zh/post/</link>
     <description>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Mon, 13 Jun 2022 22:13:59 +0800</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/zh/post/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,9 @@
       <pubDate>Mon, 13 Jun 2022 22:13:59 +0800</pubDate>
       
       <guid>https://yukatuan.github.io/zh/post/second-language/</guid>
-      <description>&lt;p&gt;本文主要介紹一些科學學習外語的實用方法。參考書目為&lt;a href=&#34;%5Bhttps://book.douban.com/subject/35424870/%5D(https://book.douban.com/subject/35424870/)&#34;&gt;外国語学習の科学&lt;/a&gt;。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文主要介紹一些科學學習外語的實用方法。參考書目為&lt;a href=&#34;https://book.douban.com/subject/35424870/&#34;&gt;外国語学習の科学&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;集中某一領域進行輸入&lt;/li&gt;
 &lt;/ol&gt;
