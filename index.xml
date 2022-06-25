@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yuka&#39;s Tech Blog💻|📱魚咖的技術博客</title>
+    <title>Yuka&#39;s Tech Blog 💻 | 📱 魚咖的技術博客</title>
     <link>https://yukatuan.github.io/</link>
-    <description>Yuka&#39;s Tech Blog💻|📱魚咖的技術博客</description>
+    <description>Yuka&#39;s Tech Blog 💻 | 📱 魚咖的技術博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jun 2022 22:13:59 +0800</lastBuildDate>
@@ -631,12 +631,20 @@ which means ignore my &lt;code&gt;public&lt;/code&gt;, it will become a new fold
 &lt;li&gt;Mu Xin&lt;/li&gt;
 &lt;li&gt;Lu Xun&lt;/li&gt;
 &lt;li&gt;Wang Xiaobo&lt;/li&gt;
+&lt;li&gt;Otsuichi&lt;/li&gt;
 &lt;li&gt;Milan Kundera&lt;/li&gt;
 &lt;li&gt;Dostoevsky&lt;/li&gt;
 &lt;li&gt;Leo Tolstoy&lt;/li&gt;
 &lt;li&gt;Akutagawa Ryunosuke&lt;/li&gt;
 &lt;li&gt;Isaka Kotaro&lt;/li&gt;
 &lt;li&gt;Terayama Shuji&lt;/li&gt;
+&lt;li&gt;Ango Sakaguchi&lt;/li&gt;
+&lt;li&gt;Arthur Conan Doyle&lt;/li&gt;
+&lt;li&gt;Kishi Yousuke&lt;/li&gt;
+&lt;li&gt;Stendhal&lt;/li&gt;
+&lt;li&gt;Yukio Mishima&lt;/li&gt;
+&lt;li&gt;宫部みゆき&lt;/li&gt;
+&lt;li&gt;Kawabata Yasunari&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;philosophy&#34; &gt;Philosophy
 &lt;span&gt;
@@ -647,23 +655,29 @@ which means ignore my &lt;code&gt;public&lt;/code&gt;, it will become a new fold
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Mou Zongsan&lt;/li&gt;
 &lt;li&gt;Nietzsche&lt;/li&gt;
+&lt;li&gt;Shen Zhihua&lt;/li&gt;
 &lt;li&gt;Wittgenstein&lt;/li&gt;
 &lt;li&gt;Yu Yingshi&lt;/li&gt;
 &lt;li&gt;Byung-Chul Han&lt;/li&gt;
-&lt;li&gt;Camus&lt;/li&gt;
+&lt;li&gt;Albert Camus&lt;/li&gt;
+&lt;li&gt;Max Weber&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;social-science&#34; &gt;Social Science
+&lt;h3 id=&#34;social--science&#34; &gt;Social &amp;amp; Science
 &lt;span&gt;
-    &lt;a href=&#34;#social-science&#34;&gt;
+    &lt;a href=&#34;#social--science&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Leonardo da Vinci&lt;/li&gt;
+&lt;li&gt;Richard Feynman&lt;/li&gt;
 &lt;li&gt;Zhang Wuchang&lt;/li&gt;
 &lt;li&gt;Liu Qing&lt;/li&gt;
 &lt;li&gt;Zheng Yefu&lt;/li&gt;
 &lt;li&gt;Xu Ben&lt;/li&gt;
 &lt;li&gt;Nassim Taleb&lt;/li&gt;
+&lt;li&gt;Steven Pinker&lt;/li&gt;
+&lt;li&gt;Neil Postman&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;filmstv-series&#34; &gt;🎬Films/TV Series
 &lt;span&gt;
@@ -674,9 +688,23 @@ which means ignore my &lt;code&gt;public&lt;/code&gt;, it will become a new fold
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Inside No. 9&lt;/li&gt;
 &lt;li&gt;Black Mirror&lt;/li&gt;
+&lt;li&gt;SPEC&lt;/li&gt;
 &lt;li&gt;Peacock&lt;/li&gt;
 &lt;li&gt;About Time&lt;/li&gt;
-&lt;li&gt;Blue Flame&lt;/li&gt;
+&lt;li&gt;눈발&lt;/li&gt;
+&lt;li&gt;3-Iron&lt;/li&gt;
+&lt;li&gt;青の炎&lt;/li&gt;
+&lt;li&gt;Blue Gate Crossing&lt;/li&gt;
+&lt;li&gt;カルテット&lt;/li&gt;
+&lt;li&gt;Hyakuen no koi&lt;/li&gt;
+&lt;li&gt;ごめんね青春！&lt;/li&gt;
+&lt;li&gt;In Time With You&lt;/li&gt;
+&lt;li&gt;暗いところで待ち合わせ&lt;/li&gt;
+&lt;li&gt;大豆田とわ子と三人の元夫&lt;/li&gt;
+&lt;li&gt;鍵泥棒のメソッド&lt;/li&gt;
+&lt;li&gt;問題のあるレストラン&lt;/li&gt;
+&lt;li&gt;コントが始まる&lt;/li&gt;
+&lt;li&gt;花束みたいな恋をした&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;music&#34; &gt;🎵Music
 &lt;span&gt;
@@ -691,23 +719,28 @@ which means ignore my &lt;code&gt;public&lt;/code&gt;, it will become a new fold
 &lt;li&gt;Radiohead&lt;/li&gt;
 &lt;li&gt;RADWIMPS&lt;/li&gt;
 &lt;li&gt;Queen&lt;/li&gt;
+&lt;li&gt;Green Days&lt;/li&gt;
 &lt;li&gt;Placebo&lt;/li&gt;
 &lt;li&gt;Us the duo&lt;/li&gt;
+&lt;li&gt;HONNE&lt;/li&gt;
+&lt;li&gt;Jannabi&lt;/li&gt;
 &lt;li&gt;Berlin Psycho Nurse&lt;/li&gt;
 &lt;li&gt;Arashi&lt;/li&gt;
 &lt;li&gt;Got7&lt;/li&gt;
+&lt;li&gt;CNBLUE&lt;/li&gt;
 &lt;li&gt;Superorganism&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;others&#34; &gt;💭Others
+&lt;h2 id=&#34;elses&#34; &gt;💭Elses
 &lt;span&gt;
-    &lt;a href=&#34;#others&#34;&gt;
+    &lt;a href=&#34;#elses&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Dancing (Jazz)&lt;/li&gt;
+&lt;li&gt;Dancing&lt;/li&gt;
 &lt;li&gt;Ukulele&lt;/li&gt;
 &lt;li&gt;Swimming&lt;/li&gt;
+&lt;li&gt;VRChat&lt;/li&gt;
 &lt;li&gt;INFJ&lt;/li&gt;
 &lt;/ul&gt;
 </description>

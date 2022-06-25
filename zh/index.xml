@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>魚咖的技術博客 💻|📱 Yuka&#39;s Tech Blog</title>
+    <title>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</title>
     <link>https://yukatuan.github.io/zh/</link>
-    <description>魚咖的技術博客 💻|📱 Yuka&#39;s Tech Blog</description>
+    <description>魚咖的技術博客 💻 | 📱 Yuka&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jun 2022 22:13:59 +0800</lastBuildDate>
@@ -771,12 +771,20 @@ enableEmoji = true
 &lt;li&gt;木心&lt;/li&gt;
 &lt;li&gt;魯迅&lt;/li&gt;
 &lt;li&gt;王小波&lt;/li&gt;
-&lt;li&gt;米蘭昆德拉&lt;/li&gt;
-&lt;li&gt;陀思妥耶夫斯基&lt;/li&gt;
-&lt;li&gt;列夫托爾斯泰&lt;/li&gt;
+&lt;li&gt;乙一&lt;/li&gt;
+&lt;li&gt;米蘭·昆德拉&lt;/li&gt;
+&lt;li&gt;陀思妥·耶夫斯基&lt;/li&gt;
+&lt;li&gt;列夫·托爾斯泰&lt;/li&gt;
 &lt;li&gt;芥川龍之介&lt;/li&gt;
 &lt;li&gt;伊坂幸太郎&lt;/li&gt;
 &lt;li&gt;寺山修司&lt;/li&gt;
+&lt;li&gt;坂口安吾&lt;/li&gt;
+&lt;li&gt;柯南·道爾&lt;/li&gt;
+&lt;li&gt;贵志祐介&lt;/li&gt;
+&lt;li&gt;司湯達&lt;/li&gt;
+&lt;li&gt;三島由紀夫&lt;/li&gt;
+&lt;li&gt;宮部美雪&lt;/li&gt;
+&lt;li&gt;川端康成&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;哲學&#34; &gt;哲學
 &lt;span&gt;
@@ -787,23 +795,29 @@ enableEmoji = true
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;牟宗三&lt;/li&gt;
 &lt;li&gt;尼采&lt;/li&gt;
+&lt;li&gt;沈志華&lt;/li&gt;
 &lt;li&gt;維特根斯坦&lt;/li&gt;
 &lt;li&gt;余英時&lt;/li&gt;
 &lt;li&gt;韓炳哲&lt;/li&gt;
-&lt;li&gt;加繆&lt;/li&gt;
+&lt;li&gt;阿貝爾·加繆&lt;/li&gt;
+&lt;li&gt;馬克思·韋伯&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;社科&#34; &gt;社科
+&lt;h3 id=&#34;社會與科學&#34; &gt;社會與科學
 &lt;span&gt;
-    &lt;a href=&#34;#%e7%a4%be%e7%a7%91&#34;&gt;
+    &lt;a href=&#34;#%e7%a4%be%e6%9c%83%e8%88%87%e7%a7%91%e5%ad%b8&#34;&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;列奧納多·達·芬奇&lt;/li&gt;
+&lt;li&gt;理查德·費曼&lt;/li&gt;
 &lt;li&gt;張五常&lt;/li&gt;
 &lt;li&gt;劉擎&lt;/li&gt;
 &lt;li&gt;鄭也夫&lt;/li&gt;
 &lt;li&gt;徐賁&lt;/li&gt;
-&lt;li&gt;納西姆塔勒布&lt;/li&gt;
+&lt;li&gt;納西姆·塔勒布&lt;/li&gt;
+&lt;li&gt;史蒂芬·平克&lt;/li&gt;
+&lt;li&gt;尼爾·波茲曼&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;影&#34; &gt;🎬影
 &lt;span&gt;
@@ -814,9 +828,23 @@ enableEmoji = true
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;九號秘事&lt;/li&gt;
 &lt;li&gt;黑鏡&lt;/li&gt;
+&lt;li&gt;SPEC&lt;/li&gt;
 &lt;li&gt;孔雀&lt;/li&gt;
 &lt;li&gt;時空戀旅人&lt;/li&gt;
+&lt;li&gt;雪花&lt;/li&gt;
+&lt;li&gt;空房間&lt;/li&gt;
 &lt;li&gt;青之炎&lt;/li&gt;
+&lt;li&gt;藍色大門&lt;/li&gt;
+&lt;li&gt;四重奏&lt;/li&gt;
+&lt;li&gt;百元之戀&lt;/li&gt;
+&lt;li&gt;對不起青春&lt;/li&gt;
+&lt;li&gt;我可能不會愛你&lt;/li&gt;
+&lt;li&gt;在黑暗中等待相遇&lt;/li&gt;
+&lt;li&gt;大豆田永久子與三名前夫&lt;/li&gt;
+&lt;li&gt;盜鑰匙的方法&lt;/li&gt;
+&lt;li&gt;問題餐廳&lt;/li&gt;
+&lt;li&gt;短劇開始啦&lt;/li&gt;
+&lt;li&gt;花束般的戀愛&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;樂&#34; &gt;🎵樂
 &lt;span&gt;
@@ -831,11 +859,15 @@ enableEmoji = true
 &lt;li&gt;Radiohead&lt;/li&gt;
 &lt;li&gt;RADWIMPS&lt;/li&gt;
 &lt;li&gt;Queen&lt;/li&gt;
+&lt;li&gt;Green Days&lt;/li&gt;
 &lt;li&gt;Placebo&lt;/li&gt;
 &lt;li&gt;Us the duo&lt;/li&gt;
+&lt;li&gt;HONNE&lt;/li&gt;
+&lt;li&gt;Jannabi&lt;/li&gt;
 &lt;li&gt;Berlin Psycho Nurse&lt;/li&gt;
 &lt;li&gt;Arashi&lt;/li&gt;
 &lt;li&gt;Got7&lt;/li&gt;
+&lt;li&gt;CNBLUE&lt;/li&gt;
 &lt;li&gt;Superorganism&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;其他&#34; &gt;💭其他
@@ -845,9 +877,10 @@ enableEmoji = true
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Dancing (Jazz)&lt;/li&gt;
+&lt;li&gt;Dancing&lt;/li&gt;
 &lt;li&gt;Ukulele&lt;/li&gt;
 &lt;li&gt;Swimming&lt;/li&gt;
+&lt;li&gt;VRChat&lt;/li&gt;
 &lt;li&gt;INFJ&lt;/li&gt;
 &lt;/ul&gt;
 </description>
