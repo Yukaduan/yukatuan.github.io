@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>figma on | 📱 魚咖的法律與科技博客 💻 |</title>
+    <link>https://yukatuan.github.io/zh/tags/figma/</link>
+    <description>| 📱 魚咖的法律與科技博客 💻 | (figma)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jul 2022 22:17:12 +0800</lastBuildDate>
+    
+    <atom:link href="https://yukatuan.github.io/zh/tags/figma/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>🌴 前端導航項目</title>
+      <link>https://yukatuan.github.io/zh/post/%E5%89%8D%E7%AB%AF%E5%B0%8E%E8%88%AA%E9%A0%85%E7%9B%AE/</link>
+      <pubDate>Mon, 25 Jul 2022 22:17:12 +0800</pubDate>
+      
+      <guid>https://yukatuan.github.io/zh/post/%E5%89%8D%E7%AB%AF%E5%B0%8E%E8%88%AA%E9%A0%85%E7%9B%AE/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;使用jQuery製作一個簡易的前端導航項目。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;figma圖示&#34; &gt;Figma圖示
+&lt;span&gt;
+    &lt;a href=&#34;#figma%e5%9c%96%e7%a4%ba&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoMcRypILq1q5Dr6A7YQZfb%2F%25E5%2589%258D%25E7%25AB%25AF%25E5%25AF%25BC%25E8%2588%25AA%25E9%25A1%25B9%25E7%259B%25AE%3Fnode-id%3D0%253A1&#34;&gt;点击查看【figma】&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前置技術棧&#34; &gt;前置技術棧
+&lt;span&gt;
+    &lt;a href=&#34;#%e5%89%8d%e7%bd%ae%e6%8a%80%e8%a1%93%e6%a3%a7&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;jQuery&lt;/li&gt;
+&lt;li&gt;LocalStorage&lt;/li&gt;
+&lt;li&gt;媒體查詢&lt;/li&gt;
+&lt;li&gt;git&amp;amp;github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;步驟&#34; &gt;步驟
+&lt;span&gt;
+    &lt;a href=&#34;#%e6%ad%a5%e9%a9%9f&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;Figma作圖&lt;br /&gt;實現手機端&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;寫HTML
+&lt;ul&gt;
+&lt;li&gt;禁止縮放（copy taobao網頁）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;viewport&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;width=device-width,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                 initial-scale=1,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                 minimum-scale=1,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                 maximum-scale=1,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                 user-scalable=no,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                 viewport-fit=cover&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;引入
+&lt;ul&gt;
+&lt;li&gt;link引入style.css&lt;/li&gt;
+&lt;li&gt;body引入main.js&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;header
+&lt;ul&gt;
+&lt;li&gt;input + button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;main
+&lt;ul&gt;
+&lt;li&gt;ul
+&lt;ul&gt;
+&lt;li&gt;li
+&lt;ul&gt;
+&lt;li&gt;div: site + logo +link&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;寫CSS
+&lt;ul&gt;
+&lt;li&gt;向下拆分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;預覽：parcel src/index.html&lt;/li&gt;
+&lt;li&gt;現存網站
+&lt;ul&gt;
+&lt;li&gt;a標簽包裹li標簽&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;添加icon
+&lt;ul&gt;
+&lt;li&gt;在iconfont網站進行&lt;a href=&#34;%5Bhttps://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.24&amp;amp;helptype=code#:~:text=%22%3E%3C/i%3E-,symbol%20%E5%BC%95%E7%94%A8,-%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D%5D(https://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.24&amp;amp;helptype=code#:~:text=%22%3E%3C/i%3E-,symbol%20%E5%BC%95%E7%94%A8,-%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D)&#34;&gt;symbol引用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;寫JS（事件監聽、DOM操作）
+&lt;ul&gt;
+&lt;li&gt;jQuery
+&lt;ul&gt;
+&lt;li&gt;BootCDN&lt;/li&gt;
+&lt;li&gt;ipconfig  查詢IP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;對象變字符串：JSON.stringify&lt;/li&gt;
+&lt;li&gt;字符串變對象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;實現PC端&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通過媒體查詢加CSS&lt;/li&gt;
+&lt;li&gt;寫JS（單獨處理PC上的邏輯）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;發佈到Github&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

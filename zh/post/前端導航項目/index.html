@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>🌴 前端導航項目 - | 📱 魚咖的法律與科技博客 💻 |</title>
+
+<meta name="description" content="
+使用jQuery製作一個簡易的前端導航項目。
+">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://yukatuan.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://yukatuan.github.io/favicon.png">
+
+
+<style>
+  body {
+    visibility: hidden;
+    opacity: 0;
+  }
+</style>
+
+<noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="https://yukatuan.github.io/css/style.min.e0f5056eba3756171e9e44ee34aadd0b0ed25c04b5eb4c4ac999220e543ae93c.css" integrity="sha256-4PUFbro3VhcenkTuNKrdCw7SXAS160xKyZkiDlQ66Tw=">
+    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="https://yukatuan.github.io/js/script.min.a65afe903825231554d9b55b073eb144da4ccf2d2823b216dcbc6cc656c9de76.js" type="text/javascript" charset="utf-8" integrity="sha256-plr&#43;kDglIxVU2bVbBz6xRNpMzy0oI7IW3LxsxlbJ3nY="></script>
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="🌴 前端導航項目" />
+<meta property="og:description" content="
+使用jQuery製作一個簡易的前端導航項目。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yukatuan.github.io/zh/post/%E5%89%8D%E7%AB%AF%E5%B0%8E%E8%88%AA%E9%A0%85%E7%9B%AE/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-07-25T22:17:12+08:00" />
+<meta property="article:modified_time" content="2022-07-25T22:17:12+08:00" /><meta property="og:site_name" content="| 📱 魚咖的法律與科技博客 💻 |" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="🌴 前端導航項目"/>
+<meta name="twitter:description" content="
+使用jQuery製作一個簡易的前端導航項目。
+"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <div class="header-top">
+    <h1 class="site-title">
+    <a href="/zh">| 📱 魚咖的法律與科技博客 💻 |</a>
+</h1>
+    <ul class="social-icons">
+
+
+    
+        <li>
+            <a href="https://github.com/Yukatuan" title="Github" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+    <li>
+            <a href="https://yukatuan.github.io/zh/index.xml" title="RSS" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+</div>
+
+<nav>
+    
+    
+    <a class=""
+        href="https://yukatuan.github.io/zh/about/" title="">關於 | About🗿</a>
+    
+    <a class=""
+        href="https://yukatuan.github.io/zh/tags/" title="">標簽 | Tags🔖</a>
+    
+    <a class=""
+        href="https://yukatuan.github.io/zh/categories/" title="">目錄 | Category📁</a>
+    
+    <a class=""
+        href="https://yukatuan.github.io/zh/post/" title="">歸檔 | Archive💾</a>
+    
+</nav>
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">🌴 前端導航項目</h1>
+
+                
+            </header>
+        </div>
+        <div class="content e-content">
+            <blockquote>
+<p>使用jQuery製作一個簡易的前端導航項目。</p>
+</blockquote>
+<h2 id="figma圖示" >Figma圖示
+<span>
+    <a href="#figma%e5%9c%96%e7%a4%ba">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p><a href="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoMcRypILq1q5Dr6A7YQZfb%2F%25E5%2589%258D%25E7%25AB%25AF%25E5%25AF%25BC%25E8%2588%25AA%25E9%25A1%25B9%25E7%259B%25AE%3Fnode-id%3D0%253A1">点击查看【figma】</a></p>
+<h2 id="前置技術棧" >前置技術棧
+<span>
+    <a href="#%e5%89%8d%e7%bd%ae%e6%8a%80%e8%a1%93%e6%a3%a7">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><ul>
+<li>jQuery</li>
+<li>LocalStorage</li>
+<li>媒體查詢</li>
+<li>git&amp;github</li>
+</ul>
+<h2 id="步驟" >步驟
+<span>
+    <a href="#%e6%ad%a5%e9%a9%9f">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>Figma作圖<br />實現手機端</p>
+<ul>
+<li>寫HTML
+<ul>
+<li>禁止縮放（copy taobao網頁）</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span> &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 initial-scale=1,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 minimum-scale=1,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 maximum-scale=1,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 user-scalable=no,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 viewport-fit=cover&#34;</span>&gt;
+</span></span></code></pre></div><ul>
+<li>引入
+<ul>
+<li>link引入style.css</li>
+<li>body引入main.js</li>
+</ul>
+</li>
+<li>header
+<ul>
+<li>input + button</li>
+</ul>
+</li>
+<li>main
+<ul>
+<li>ul
+<ul>
+<li>li
+<ul>
+<li>div: site + logo +link</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>寫CSS
+<ul>
+<li>向下拆分</li>
+</ul>
+</li>
+<li>預覽：parcel src/index.html</li>
+<li>現存網站
+<ul>
+<li>a標簽包裹li標簽</li>
+</ul>
+</li>
+<li>添加icon
+<ul>
+<li>在iconfont網站進行<a href="%5Bhttps://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.24&amp;helptype=code#:~:text=%22%3E%3C/i%3E-,symbol%20%E5%BC%95%E7%94%A8,-%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D%5D(https://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.24&amp;helptype=code#:~:text=%22%3E%3C/i%3E-,symbol%20%E5%BC%95%E7%94%A8,-%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D)">symbol引用</a></li>
+</ul>
+</li>
+<li>寫JS（事件監聽、DOM操作）
+<ul>
+<li>jQuery
+<ul>
+<li>BootCDN</li>
+<li>ipconfig  查詢IP</li>
+</ul>
+</li>
+<li>對象變字符串：JSON.stringify</li>
+<li>字符串變對象</li>
+</ul>
+</li>
+</ul>
+<p>實現PC端</p>
+<ul>
+<li>通過媒體查詢加CSS</li>
+<li>寫JS（單獨處理PC上的邏輯）</li>
+</ul>
+<p>發佈到Github</p>
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+        <div class="post-date dt-published">2022-07-25</div>
+    
+
+    <a class="post-hidden-url u-url" href="https://yukatuan.github.io/zh/post/%E5%89%8D%E7%AB%AF%E5%B0%8E%E8%88%AA%E9%A0%85%E7%9B%AE/">https://yukatuan.github.io/zh/post/%E5%89%8D%E7%AB%AF%E5%B0%8E%E8%88%AA%E9%A0%85%E7%9B%AE/</a>
+    <a href="https://yukatuan.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Yuka Tuan</a>
+
+
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    
+                    <li><a href="https://yukatuan.github.io/zh/categories/%E7%A7%91%E6%8A%80/">科技</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        
+                        <li><a href="https://yukatuan.github.io/zh/tags/figma/">#figma</a></li>
+                    
+                        
+                        <li><a href="https://yukatuan.github.io/zh/tags/jquery/">#jQuery</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+        
+    
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item disabled">
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/zh/post/second-language/">🌴 如何科學學習外語</a>
+            
+        </div>
+    </div>
+
+
+
+
+    
+
+    
+        
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Yuka" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+
+
+
+
+    
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+        <ul class="language-select">
+    
+    
+    
+        
+    
+
+    
+        
+            <li><a href="https://yukatuan.github.io/">English</a></li>
+        
+    
+        
+            <li>繁體中文</li>
+        
+    
+</ul>
+
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© 🐟☕ 魚咖 | 日知其所亡，月無亡其所能, 2022<br>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.<br>
+            
+            </p>  
+        </div> 
+
+        
+
+    
+
+
+
+    <button class="theme-switcher">
+        Dark theme
+    </button>
+
+
+<script>
+const STORAGE_KEY = 'user-color-scheme'
+const defaultTheme = "auto"
+
+let currentTheme
+let switchButton
+let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+const autoChangeScheme = e => {
+    currentTheme = e.matches ? 'dark' : 'light'
+    document.documentElement.setAttribute('data-theme', currentTheme)
+    changeButtonText()
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    switchButton = document.querySelector('.theme-switcher')
+    currentTheme = detectCurrentScheme()
+    if (currentTheme == 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark')
+    }
+    if (currentTheme == 'auto') {
+        autoChangeScheme(autoDefinedScheme);
+        autoDefinedScheme.addListener(autoChangeScheme);
+    }
+
+    if (switchButton) {
+        changeButtonText()
+        switchButton.addEventListener('click', switchTheme, false)
+    }
+  
+    showContent()
+})
+
+function detectCurrentScheme() {
+    if (localStorage.getItem(STORAGE_KEY)) {
+        return localStorage.getItem(STORAGE_KEY)
+    } 
+    if (defaultTheme) {
+        return defaultTheme
+    } 
+    if (!window.matchMedia) {
+        return 'light'
+    } 
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark'
+    }
+    return 'light'
+}
+
+function changeButtonText()
+{   
+    if (switchButton) {
+        switchButton.textContent = currentTheme == 'dark' ?  "Light theme" : "Dark theme"
+    }
+}
+
+function switchTheme(e) {
+    if (currentTheme == 'dark') {
+        localStorage.setItem(STORAGE_KEY, 'light')
+        document.documentElement.setAttribute('data-theme', 'light')
+        currentTheme = 'light'
+    } else {
+        localStorage.setItem(STORAGE_KEY, 'dark')
+        document.documentElement.setAttribute('data-theme', 'dark')
+        currentTheme = 'dark'
+    }
+    changeButtonText()
+}
+
+function showContent() {
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
+}
+</script>   
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://yukatuan.github.io/ class="p-name u-url url fn" rel="me">🐟☕ 魚咖 | 日知其所亡，月無亡其所能</a> 
+
+    
+
+    
+</p> 
+</footer>
+
+        
+    </div>
+</body>
+</html>
