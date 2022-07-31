@@ -6,10 +6,37 @@
     <description>| 📱 魚咖的法律與科技博客 💻 | (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jul 2022 22:17:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jul 2022 08:20:24 +0800</lastBuildDate>
     
     <atom:link href="https://yukatuan.github.io/zh/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>🌴 Canvas和SVG的區別</title>
+      <link>https://yukatuan.github.io/zh/post/canvas/</link>
+      <pubDate>Thu, 28 Jul 2022 08:20:24 +0800</pubDate>
+      
+      <guid>https://yukatuan.github.io/zh/post/canvas/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;位圖vs矢量圖、渲染性能、是否支持分層和事件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Canvas主要是用筆刷來繪製2D圖形；&lt;/li&gt;
+&lt;li&gt;SVG主要是用標簽來繪製不規則矢量圖；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;相同點
+都是用來畫2D圖形&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不同點
+Canvas畫的是位圖，SVG畫的是矢量圖。
+SVG節點過多時渲染慢，Canvas性能更好一些，但是寫起來更複雜。
+SVG支持分層和事件，Canvas不支持，但可以用庫實現。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>🌴 前端導航項目</title>

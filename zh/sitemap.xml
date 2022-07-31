@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yukatuan.github.io/zh/</loc>
-    <lastmod>2022-07-25T22:17:12+08:00</lastmod>
+    <lastmod>2022-07-28T08:20:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,22 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://yukatuan.github.io/zh/"
+                />
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/post/canvas/</loc>
+    <lastmod>2022-07-28T08:20:24+08:00</lastmod>
+  </url><url>
+    <loc>https://yukatuan.github.io/zh/post/</loc>
+    <lastmod>2022-07-28T08:20:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yukatuan.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yukatuan.github.io/zh/post/"
                 />
   </url><url>
     <loc>https://yukatuan.github.io/zh/post/%E5%89%8D%E7%AB%AF%E5%B0%8E%E8%88%AA%E9%A0%85%E7%9B%AE/</loc>
@@ -36,19 +52,6 @@
   </url><url>
     <loc>https://yukatuan.github.io/zh/tags/jquery/</loc>
     <lastmod>2022-07-25T22:17:12+08:00</lastmod>
-  </url><url>
-    <loc>https://yukatuan.github.io/zh/post/</loc>
-    <lastmod>2022-07-25T22:17:12+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yukatuan.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://yukatuan.github.io/zh/post/"
-                />
   </url><url>
     <loc>https://yukatuan.github.io/zh/tags/</loc>
     <lastmod>2022-07-25T22:17:12+08:00</lastmod>
